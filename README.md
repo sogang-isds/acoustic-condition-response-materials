@@ -43,5 +43,5 @@ an architecture-independent ranking.
 The endpoint materials existed before this AC-T2A analysis; their construction
 is not claimed as this submission's methodological contribution. This release
 exists so readers can inspect the exact evaluation assets and preprocessing.
-Before making the repository public, the release owner must confirm that public
-redistribution of these generated endpoint waveforms is permitted.
+Only generated endpoint waveforms are redistributed here; no original VGGSound
+video or raw anchor audio is included.
