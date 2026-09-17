@@ -20,6 +20,11 @@ two fixed generation seeds, both systems, text-only A/B controls, and all four
 text/reference cells. It is supplied for qualitative transparency only; the
 paper's conclusions use the group-level quantitative analysis.
 
+The [physical-control listener](./physical_controls/) separately exposes the
+speed, pitch, and volume interventions. It uses the first recording from every
+source class in the full test (4/4/8 examples), both systems, and both seeds;
+it lets a reader hear the actual 2×2 manipulation behind the physical results.
+
 ## Construction and leakage safeguards
 
 Each group fixes one held-out VGGSound anchor and one endpoint-generation seed.
