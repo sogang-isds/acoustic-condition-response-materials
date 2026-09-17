@@ -1,0 +1,89 @@
+condition_id,group_id,text_endpoint,reference_endpoint,caption,reference_file
+i000_pA_rA,i000,A,A,bird squawking,data/reference_audio/i000_A.wav
+i000_pA_rB,i000,A,B,bird squawking,data/reference_audio/i000_B.wav
+i000_pB_rA,i000,B,A,owl hooting at night,data/reference_audio/i000_A.wav
+i000_pB_rB,i000,B,B,owl hooting at night,data/reference_audio/i000_B.wav
+i001_pA_rA,i001,A,A,bird squawking,data/reference_audio/i001_A.wav
+i001_pA_rB,i001,A,B,bird squawking,data/reference_audio/i001_B.wav
+i001_pB_rA,i001,B,A,owl hooting at night,data/reference_audio/i001_A.wav
+i001_pB_rB,i001,B,B,owl hooting at night,data/reference_audio/i001_B.wav
+i002_pA_rA,i002,A,A,bird squawking,data/reference_audio/i002_A.wav
+i002_pA_rB,i002,A,B,bird squawking,data/reference_audio/i002_B.wav
+i002_pB_rA,i002,B,A,owl hooting at night,data/reference_audio/i002_A.wav
+i002_pB_rB,i002,B,B,owl hooting at night,data/reference_audio/i002_B.wav
+i003_pA_rA,i003,A,A,car engine starting,data/reference_audio/i003_A.wav
+i003_pA_rB,i003,A,B,car engine starting,data/reference_audio/i003_B.wav
+i003_pB_rA,i003,B,A,motorcycle engine revving loudly,data/reference_audio/i003_A.wav
+i003_pB_rB,i003,B,B,motorcycle engine revving loudly,data/reference_audio/i003_B.wav
+i004_pA_rA,i004,A,A,car engine starting,data/reference_audio/i004_A.wav
+i004_pA_rB,i004,A,B,car engine starting,data/reference_audio/i004_B.wav
+i004_pB_rA,i004,B,A,motorcycle engine revving loudly,data/reference_audio/i004_A.wav
+i004_pB_rB,i004,B,B,motorcycle engine revving loudly,data/reference_audio/i004_B.wav
+i005_pA_rA,i005,A,A,cat meowing,data/reference_audio/i005_A.wav
+i005_pA_rB,i005,A,B,cat meowing,data/reference_audio/i005_B.wav
+i005_pB_rA,i005,B,A,big wild cat growling deeply,data/reference_audio/i005_A.wav
+i005_pB_rB,i005,B,B,big wild cat growling deeply,data/reference_audio/i005_B.wav
+i006_pA_rA,i006,A,A,cat meowing,data/reference_audio/i006_A.wav
+i006_pA_rB,i006,A,B,cat meowing,data/reference_audio/i006_B.wav
+i006_pB_rA,i006,B,A,big wild cat growling deeply,data/reference_audio/i006_A.wav
+i006_pB_rB,i006,B,B,big wild cat growling deeply,data/reference_audio/i006_B.wav
+i007_pA_rA,i007,A,A,cat meowing,data/reference_audio/i007_A.wav
+i007_pA_rB,i007,A,B,cat meowing,data/reference_audio/i007_B.wav
+i007_pB_rA,i007,B,A,big wild cat growling deeply,data/reference_audio/i007_A.wav
+i007_pB_rB,i007,B,B,big wild cat growling deeply,data/reference_audio/i007_B.wav
+i008_pA_rA,i008,A,A,dog barking,data/reference_audio/i008_A.wav
+i008_pA_rB,i008,A,B,dog barking,data/reference_audio/i008_B.wav
+i008_pB_rA,i008,B,A,wolf howling in the distance,data/reference_audio/i008_A.wav
+i008_pB_rB,i008,B,B,wolf howling in the distance,data/reference_audio/i008_B.wav
+i009_pA_rA,i009,A,A,dog barking,data/reference_audio/i009_A.wav
+i009_pA_rB,i009,A,B,dog barking,data/reference_audio/i009_B.wav
+i009_pB_rA,i009,B,A,wolf howling in the distance,data/reference_audio/i009_A.wav
+i009_pB_rB,i009,B,B,wolf howling in the distance,data/reference_audio/i009_B.wav
+i010_pA_rA,i010,A,A,dog barking,data/reference_audio/i010_A.wav
+i010_pA_rB,i010,A,B,dog barking,data/reference_audio/i010_B.wav
+i010_pB_rA,i010,B,A,wolf howling in the distance,data/reference_audio/i010_A.wav
+i010_pB_rB,i010,B,B,wolf howling in the distance,data/reference_audio/i010_B.wav
+i011_pA_rA,i011,A,A,door slamming,data/reference_audio/i011_A.wav
+i011_pA_rB,i011,A,B,door slamming,data/reference_audio/i011_B.wav
+i011_pB_rA,i011,B,A,car door slamming shut,data/reference_audio/i011_A.wav
+i011_pB_rB,i011,B,B,car door slamming shut,data/reference_audio/i011_B.wav
+i012_pA_rA,i012,A,A,people clapping,data/reference_audio/i012_A.wav
+i012_pA_rB,i012,A,B,people clapping,data/reference_audio/i012_B.wav
+i012_pB_rA,i012,B,A,rhythmic clapping with stomping,data/reference_audio/i012_A.wav
+i012_pB_rB,i012,B,B,rhythmic clapping with stomping,data/reference_audio/i012_B.wav
+i013_pA_rA,i013,A,A,playing acoustic guitar,data/reference_audio/i013_A.wav
+i013_pA_rB,i013,A,B,playing acoustic guitar,data/reference_audio/i013_B.wav
+i013_pB_rA,i013,B,A,playing bass guitar with deep rumbling tone,data/reference_audio/i013_A.wav
+i013_pB_rB,i013,B,B,playing bass guitar with deep rumbling tone,data/reference_audio/i013_B.wav
+i014_pA_rA,i014,A,A,playing piano,data/reference_audio/i014_A.wav
+i014_pA_rB,i014,A,B,playing piano,data/reference_audio/i014_B.wav
+i014_pB_rA,i014,B,A,playing toy piano with tinny metallic sound,data/reference_audio/i014_A.wav
+i014_pB_rB,i014,B,B,playing toy piano with tinny metallic sound,data/reference_audio/i014_B.wav
+i015_pA_rA,i015,A,A,playing piano,data/reference_audio/i015_A.wav
+i015_pA_rB,i015,A,B,playing piano,data/reference_audio/i015_B.wav
+i015_pB_rA,i015,B,A,playing toy piano with tinny metallic sound,data/reference_audio/i015_A.wav
+i015_pB_rB,i015,B,B,playing toy piano with tinny metallic sound,data/reference_audio/i015_B.wav
+i016_pA_rA,i016,A,A,playing piano,data/reference_audio/i016_A.wav
+i016_pA_rB,i016,A,B,playing piano,data/reference_audio/i016_B.wav
+i016_pB_rA,i016,B,A,playing toy piano with tinny metallic sound,data/reference_audio/i016_A.wav
+i016_pB_rB,i016,B,B,playing toy piano with tinny metallic sound,data/reference_audio/i016_B.wav
+i017_pA_rA,i017,A,A,thunder,data/reference_audio/i017_A.wav
+i017_pA_rB,i017,A,B,thunder,data/reference_audio/i017_B.wav
+i017_pB_rA,i017,B,A,thunder with hail hitting metal roof,data/reference_audio/i017_A.wav
+i017_pB_rB,i017,B,B,thunder with hail hitting metal roof,data/reference_audio/i017_B.wav
+i018_pA_rA,i018,A,A,thunder,data/reference_audio/i018_A.wav
+i018_pA_rB,i018,A,B,thunder,data/reference_audio/i018_B.wav
+i018_pB_rA,i018,B,A,thunder with hail hitting metal roof,data/reference_audio/i018_A.wav
+i018_pB_rB,i018,B,B,thunder with hail hitting metal roof,data/reference_audio/i018_B.wav
+i019_pA_rA,i019,A,A,waterfall burbling,data/reference_audio/i019_A.wav
+i019_pA_rB,i019,A,B,waterfall burbling,data/reference_audio/i019_B.wav
+i019_pB_rA,i019,B,A,ocean waves crashing on shore,data/reference_audio/i019_A.wav
+i019_pB_rB,i019,B,B,ocean waves crashing on shore,data/reference_audio/i019_B.wav
+i020_pA_rA,i020,A,A,waterfall burbling,data/reference_audio/i020_A.wav
+i020_pA_rB,i020,A,B,waterfall burbling,data/reference_audio/i020_B.wav
+i020_pB_rA,i020,B,A,ocean waves crashing on shore,data/reference_audio/i020_A.wav
+i020_pB_rB,i020,B,B,ocean waves crashing on shore,data/reference_audio/i020_B.wav
+i021_pA_rA,i021,A,A,waterfall burbling,data/reference_audio/i021_A.wav
+i021_pA_rB,i021,A,B,waterfall burbling,data/reference_audio/i021_B.wav
+i021_pB_rA,i021,B,A,ocean waves crashing on shore,data/reference_audio/i021_A.wav
+i021_pB_rB,i021,B,B,ocean waves crashing on shore,data/reference_audio/i021_B.wav

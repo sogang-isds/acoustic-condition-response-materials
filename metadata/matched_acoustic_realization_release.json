@@ -1,0 +1,1209 @@
+{
+  "release": "RefCon-T2A matched acoustic-realization evaluation materials v1",
+  "scope": "Evaluation data card; not a model or training-data release.",
+  "construction": {
+    "source_anchor": "One held-out VGGSound anchor per group; source videos are not redistributed.",
+    "endpoint_generation": "Text-guided MMAudio endpoint rendering with the anchor and generation seed held fixed within a group.",
+    "selection_before_ac_t2a_generation": true,
+    "candidate_groups": 30,
+    "selected_groups": 22,
+    "rejected_groups": 8,
+    "minimum_endpoint_duration_sec": 7.9,
+    "minimum_endpoint_CLAP_distance": 0.15,
+    "reference_crop_sec": 5.0,
+    "sample_rate_hz": 44100,
+    "pairwise_RMS_matching": true
+  },
+  "ac_t2a_protocol": {
+    "cells_per_group": 4,
+    "cells": [
+      "text_A/reference_A",
+      "text_A/reference_B",
+      "text_B/reference_A",
+      "text_B/reference_B"
+    ],
+    "no_reference_controls_per_group": 2,
+    "fixed_generation_seeds": [
+      3,
+      4
+    ],
+    "video_at_AC_T2A_inference": false
+  },
+  "limitations": [
+    "Endpoints can differ in source identity as well as acoustic realization; this is not a pure-timbre benchmark.",
+    "MMAudio constructs the endpoints and is the backbone family adapted by RefCon-T2A; results are condition-allocation evidence, not an unbiased cross-architecture quality rank.",
+    "Automatic endpoint movement is not a perceptual listening-study score."
+  ],
+  "items": [
+    {
+      "group_id": "i000",
+      "category": "bird_squawking",
+      "text_A": "bird squawking",
+      "text_B": "owl hooting at night",
+      "reference_A": "data/reference_audio/i000_A.wav",
+      "reference_B": "data/reference_audio/i000_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.4057351350784302,
+      "pair_rms_after_matching": 0.07
+    },
+    {
+      "group_id": "i001",
+      "category": "bird_squawking",
+      "text_A": "bird squawking",
+      "text_B": "owl hooting at night",
+      "reference_A": "data/reference_audio/i001_A.wav",
+      "reference_B": "data/reference_audio/i001_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.6546650528907776,
+      "pair_rms_after_matching": 0.06890672188437445
+    },
+    {
+      "group_id": "i002",
+      "category": "bird_squawking",
+      "text_A": "bird squawking",
+      "text_B": "owl hooting at night",
+      "reference_A": "data/reference_audio/i002_A.wav",
+      "reference_B": "data/reference_audio/i002_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.4653104543685913,
+      "pair_rms_after_matching": 0.04397681772708893
+    },
+    {
+      "group_id": "i003",
+      "category": "car_engine_starting",
+      "text_A": "car engine starting",
+      "text_B": "motorcycle engine revving loudly",
+      "reference_A": "data/reference_audio/i003_A.wav",
+      "reference_B": "data/reference_audio/i003_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.18467819690704346,
+      "pair_rms_after_matching": 0.07
+    },
+    {
+      "group_id": "i004",
+      "category": "car_engine_starting",
+      "text_A": "car engine starting",
+      "text_B": "motorcycle engine revving loudly",
+      "reference_A": "data/reference_audio/i004_A.wav",
+      "reference_B": "data/reference_audio/i004_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.425976037979126,
+      "pair_rms_after_matching": 0.07
+    },
+    {
+      "group_id": "i005",
+      "category": "cat_meowing",
+      "text_A": "cat meowing",
+      "text_B": "big wild cat growling deeply",
+      "reference_A": "data/reference_audio/i005_A.wav",
+      "reference_B": "data/reference_audio/i005_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.3767334818840027,
+      "pair_rms_after_matching": 0.06747217259623788
+    },
+    {
+      "group_id": "i006",
+      "category": "cat_meowing",
+      "text_A": "cat meowing",
+      "text_B": "big wild cat growling deeply",
+      "reference_A": "data/reference_audio/i006_A.wav",
+      "reference_B": "data/reference_audio/i006_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.843717098236084,
+      "pair_rms_after_matching": 0.07
+    },
+    {
+      "group_id": "i007",
+      "category": "cat_meowing",
+      "text_A": "cat meowing",
+      "text_B": "big wild cat growling deeply",
+      "reference_A": "data/reference_audio/i007_A.wav",
+      "reference_B": "data/reference_audio/i007_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.39868688583374023,
+      "pair_rms_after_matching": 0.04585911245907054
+    },
+    {
+      "group_id": "i008",
+      "category": "dog_barking",
+      "text_A": "dog barking",
+      "text_B": "wolf howling in the distance",
+      "reference_A": "data/reference_audio/i008_A.wav",
+      "reference_B": "data/reference_audio/i008_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.35150349140167236,
+      "pair_rms_after_matching": 0.07
+    },
+    {
+      "group_id": "i009",
+      "category": "dog_barking",
+      "text_A": "dog barking",
+      "text_B": "wolf howling in the distance",
+      "reference_A": "data/reference_audio/i009_A.wav",
+      "reference_B": "data/reference_audio/i009_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.35101693868637085,
+      "pair_rms_after_matching": 0.0592273235321045
+    },
+    {
+      "group_id": "i010",
+      "category": "dog_barking",
+      "text_A": "dog barking",
+      "text_B": "wolf howling in the distance",
+      "reference_A": "data/reference_audio/i010_A.wav",
+      "reference_B": "data/reference_audio/i010_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.5575313568115234,
+      "pair_rms_after_matching": 0.07
+    },
+    {
+      "group_id": "i011",
+      "category": "door_slamming",
+      "text_A": "door slamming",
+      "text_B": "car door slamming shut",
+      "reference_A": "data/reference_audio/i011_A.wav",
+      "reference_B": "data/reference_audio/i011_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.3153359889984131,
+      "pair_rms_after_matching": 0.05947454152283845
+    },
+    {
+      "group_id": "i012",
+      "category": "people_clapping",
+      "text_A": "people clapping",
+      "text_B": "rhythmic clapping with stomping",
+      "reference_A": "data/reference_audio/i012_A.wav",
+      "reference_B": "data/reference_audio/i012_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.40206480026245117,
+      "pair_rms_after_matching": 0.07
+    },
+    {
+      "group_id": "i013",
+      "category": "playing_acoustic_guitar",
+      "text_A": "playing acoustic guitar",
+      "text_B": "playing bass guitar with deep rumbling tone",
+      "reference_A": "data/reference_audio/i013_A.wav",
+      "reference_B": "data/reference_audio/i013_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.6791214942932129,
+      "pair_rms_after_matching": 0.03763168041522686
+    },
+    {
+      "group_id": "i014",
+      "category": "playing_piano",
+      "text_A": "playing piano",
+      "text_B": "playing toy piano with tinny metallic sound",
+      "reference_A": "data/reference_audio/i014_A.wav",
+      "reference_B": "data/reference_audio/i014_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.671596884727478,
+      "pair_rms_after_matching": 0.07
+    },
+    {
+      "group_id": "i015",
+      "category": "playing_piano",
+      "text_A": "playing piano",
+      "text_B": "playing toy piano with tinny metallic sound",
+      "reference_A": "data/reference_audio/i015_A.wav",
+      "reference_B": "data/reference_audio/i015_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.615273118019104,
+      "pair_rms_after_matching": 0.07
+    },
+    {
+      "group_id": "i016",
+      "category": "playing_piano",
+      "text_A": "playing piano",
+      "text_B": "playing toy piano with tinny metallic sound",
+      "reference_A": "data/reference_audio/i016_A.wav",
+      "reference_B": "data/reference_audio/i016_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.30184221267700195,
+      "pair_rms_after_matching": 0.07
+    },
+    {
+      "group_id": "i017",
+      "category": "thunder",
+      "text_A": "thunder",
+      "text_B": "thunder with hail hitting metal roof",
+      "reference_A": "data/reference_audio/i017_A.wav",
+      "reference_B": "data/reference_audio/i017_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.26104235649108887,
+      "pair_rms_after_matching": 0.07
+    },
+    {
+      "group_id": "i018",
+      "category": "thunder",
+      "text_A": "thunder",
+      "text_B": "thunder with hail hitting metal roof",
+      "reference_A": "data/reference_audio/i018_A.wav",
+      "reference_B": "data/reference_audio/i018_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.21238738298416138,
+      "pair_rms_after_matching": 0.07
+    },
+    {
+      "group_id": "i019",
+      "category": "waterfall_burbling",
+      "text_A": "waterfall burbling",
+      "text_B": "ocean waves crashing on shore",
+      "reference_A": "data/reference_audio/i019_A.wav",
+      "reference_B": "data/reference_audio/i019_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.19280755519866943,
+      "pair_rms_after_matching": 0.07
+    },
+    {
+      "group_id": "i020",
+      "category": "waterfall_burbling",
+      "text_A": "waterfall burbling",
+      "text_B": "ocean waves crashing on shore",
+      "reference_A": "data/reference_audio/i020_A.wav",
+      "reference_B": "data/reference_audio/i020_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.4738479256629944,
+      "pair_rms_after_matching": 0.07
+    },
+    {
+      "group_id": "i021",
+      "category": "waterfall_burbling",
+      "text_A": "waterfall burbling",
+      "text_B": "ocean waves crashing on shore",
+      "reference_A": "data/reference_audio/i021_A.wav",
+      "reference_B": "data/reference_audio/i021_B.wav",
+      "endpoint_duration_sec_before_crop": 8.010884353741497,
+      "endpoint_clap_distance_before_selection": 0.4839189648628235,
+      "pair_rms_after_matching": 0.07
+    }
+  ],
+  "reference_conditions": [
+    {
+      "condition_id": "i000_pA_rA",
+      "group_id": "i000",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "bird squawking",
+      "reference_file": "data/reference_audio/i000_A.wav"
+    },
+    {
+      "condition_id": "i000_pA_rB",
+      "group_id": "i000",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "bird squawking",
+      "reference_file": "data/reference_audio/i000_B.wav"
+    },
+    {
+      "condition_id": "i000_pB_rA",
+      "group_id": "i000",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "owl hooting at night",
+      "reference_file": "data/reference_audio/i000_A.wav"
+    },
+    {
+      "condition_id": "i000_pB_rB",
+      "group_id": "i000",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "owl hooting at night",
+      "reference_file": "data/reference_audio/i000_B.wav"
+    },
+    {
+      "condition_id": "i001_pA_rA",
+      "group_id": "i001",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "bird squawking",
+      "reference_file": "data/reference_audio/i001_A.wav"
+    },
+    {
+      "condition_id": "i001_pA_rB",
+      "group_id": "i001",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "bird squawking",
+      "reference_file": "data/reference_audio/i001_B.wav"
+    },
+    {
+      "condition_id": "i001_pB_rA",
+      "group_id": "i001",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "owl hooting at night",
+      "reference_file": "data/reference_audio/i001_A.wav"
+    },
+    {
+      "condition_id": "i001_pB_rB",
+      "group_id": "i001",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "owl hooting at night",
+      "reference_file": "data/reference_audio/i001_B.wav"
+    },
+    {
+      "condition_id": "i002_pA_rA",
+      "group_id": "i002",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "bird squawking",
+      "reference_file": "data/reference_audio/i002_A.wav"
+    },
+    {
+      "condition_id": "i002_pA_rB",
+      "group_id": "i002",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "bird squawking",
+      "reference_file": "data/reference_audio/i002_B.wav"
+    },
+    {
+      "condition_id": "i002_pB_rA",
+      "group_id": "i002",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "owl hooting at night",
+      "reference_file": "data/reference_audio/i002_A.wav"
+    },
+    {
+      "condition_id": "i002_pB_rB",
+      "group_id": "i002",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "owl hooting at night",
+      "reference_file": "data/reference_audio/i002_B.wav"
+    },
+    {
+      "condition_id": "i003_pA_rA",
+      "group_id": "i003",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "car engine starting",
+      "reference_file": "data/reference_audio/i003_A.wav"
+    },
+    {
+      "condition_id": "i003_pA_rB",
+      "group_id": "i003",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "car engine starting",
+      "reference_file": "data/reference_audio/i003_B.wav"
+    },
+    {
+      "condition_id": "i003_pB_rA",
+      "group_id": "i003",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "motorcycle engine revving loudly",
+      "reference_file": "data/reference_audio/i003_A.wav"
+    },
+    {
+      "condition_id": "i003_pB_rB",
+      "group_id": "i003",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "motorcycle engine revving loudly",
+      "reference_file": "data/reference_audio/i003_B.wav"
+    },
+    {
+      "condition_id": "i004_pA_rA",
+      "group_id": "i004",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "car engine starting",
+      "reference_file": "data/reference_audio/i004_A.wav"
+    },
+    {
+      "condition_id": "i004_pA_rB",
+      "group_id": "i004",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "car engine starting",
+      "reference_file": "data/reference_audio/i004_B.wav"
+    },
+    {
+      "condition_id": "i004_pB_rA",
+      "group_id": "i004",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "motorcycle engine revving loudly",
+      "reference_file": "data/reference_audio/i004_A.wav"
+    },
+    {
+      "condition_id": "i004_pB_rB",
+      "group_id": "i004",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "motorcycle engine revving loudly",
+      "reference_file": "data/reference_audio/i004_B.wav"
+    },
+    {
+      "condition_id": "i005_pA_rA",
+      "group_id": "i005",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "cat meowing",
+      "reference_file": "data/reference_audio/i005_A.wav"
+    },
+    {
+      "condition_id": "i005_pA_rB",
+      "group_id": "i005",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "cat meowing",
+      "reference_file": "data/reference_audio/i005_B.wav"
+    },
+    {
+      "condition_id": "i005_pB_rA",
+      "group_id": "i005",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "big wild cat growling deeply",
+      "reference_file": "data/reference_audio/i005_A.wav"
+    },
+    {
+      "condition_id": "i005_pB_rB",
+      "group_id": "i005",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "big wild cat growling deeply",
+      "reference_file": "data/reference_audio/i005_B.wav"
+    },
+    {
+      "condition_id": "i006_pA_rA",
+      "group_id": "i006",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "cat meowing",
+      "reference_file": "data/reference_audio/i006_A.wav"
+    },
+    {
+      "condition_id": "i006_pA_rB",
+      "group_id": "i006",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "cat meowing",
+      "reference_file": "data/reference_audio/i006_B.wav"
+    },
+    {
+      "condition_id": "i006_pB_rA",
+      "group_id": "i006",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "big wild cat growling deeply",
+      "reference_file": "data/reference_audio/i006_A.wav"
+    },
+    {
+      "condition_id": "i006_pB_rB",
+      "group_id": "i006",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "big wild cat growling deeply",
+      "reference_file": "data/reference_audio/i006_B.wav"
+    },
+    {
+      "condition_id": "i007_pA_rA",
+      "group_id": "i007",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "cat meowing",
+      "reference_file": "data/reference_audio/i007_A.wav"
+    },
+    {
+      "condition_id": "i007_pA_rB",
+      "group_id": "i007",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "cat meowing",
+      "reference_file": "data/reference_audio/i007_B.wav"
+    },
+    {
+      "condition_id": "i007_pB_rA",
+      "group_id": "i007",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "big wild cat growling deeply",
+      "reference_file": "data/reference_audio/i007_A.wav"
+    },
+    {
+      "condition_id": "i007_pB_rB",
+      "group_id": "i007",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "big wild cat growling deeply",
+      "reference_file": "data/reference_audio/i007_B.wav"
+    },
+    {
+      "condition_id": "i008_pA_rA",
+      "group_id": "i008",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "dog barking",
+      "reference_file": "data/reference_audio/i008_A.wav"
+    },
+    {
+      "condition_id": "i008_pA_rB",
+      "group_id": "i008",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "dog barking",
+      "reference_file": "data/reference_audio/i008_B.wav"
+    },
+    {
+      "condition_id": "i008_pB_rA",
+      "group_id": "i008",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "wolf howling in the distance",
+      "reference_file": "data/reference_audio/i008_A.wav"
+    },
+    {
+      "condition_id": "i008_pB_rB",
+      "group_id": "i008",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "wolf howling in the distance",
+      "reference_file": "data/reference_audio/i008_B.wav"
+    },
+    {
+      "condition_id": "i009_pA_rA",
+      "group_id": "i009",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "dog barking",
+      "reference_file": "data/reference_audio/i009_A.wav"
+    },
+    {
+      "condition_id": "i009_pA_rB",
+      "group_id": "i009",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "dog barking",
+      "reference_file": "data/reference_audio/i009_B.wav"
+    },
+    {
+      "condition_id": "i009_pB_rA",
+      "group_id": "i009",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "wolf howling in the distance",
+      "reference_file": "data/reference_audio/i009_A.wav"
+    },
+    {
+      "condition_id": "i009_pB_rB",
+      "group_id": "i009",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "wolf howling in the distance",
+      "reference_file": "data/reference_audio/i009_B.wav"
+    },
+    {
+      "condition_id": "i010_pA_rA",
+      "group_id": "i010",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "dog barking",
+      "reference_file": "data/reference_audio/i010_A.wav"
+    },
+    {
+      "condition_id": "i010_pA_rB",
+      "group_id": "i010",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "dog barking",
+      "reference_file": "data/reference_audio/i010_B.wav"
+    },
+    {
+      "condition_id": "i010_pB_rA",
+      "group_id": "i010",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "wolf howling in the distance",
+      "reference_file": "data/reference_audio/i010_A.wav"
+    },
+    {
+      "condition_id": "i010_pB_rB",
+      "group_id": "i010",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "wolf howling in the distance",
+      "reference_file": "data/reference_audio/i010_B.wav"
+    },
+    {
+      "condition_id": "i011_pA_rA",
+      "group_id": "i011",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "door slamming",
+      "reference_file": "data/reference_audio/i011_A.wav"
+    },
+    {
+      "condition_id": "i011_pA_rB",
+      "group_id": "i011",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "door slamming",
+      "reference_file": "data/reference_audio/i011_B.wav"
+    },
+    {
+      "condition_id": "i011_pB_rA",
+      "group_id": "i011",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "car door slamming shut",
+      "reference_file": "data/reference_audio/i011_A.wav"
+    },
+    {
+      "condition_id": "i011_pB_rB",
+      "group_id": "i011",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "car door slamming shut",
+      "reference_file": "data/reference_audio/i011_B.wav"
+    },
+    {
+      "condition_id": "i012_pA_rA",
+      "group_id": "i012",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "people clapping",
+      "reference_file": "data/reference_audio/i012_A.wav"
+    },
+    {
+      "condition_id": "i012_pA_rB",
+      "group_id": "i012",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "people clapping",
+      "reference_file": "data/reference_audio/i012_B.wav"
+    },
+    {
+      "condition_id": "i012_pB_rA",
+      "group_id": "i012",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "rhythmic clapping with stomping",
+      "reference_file": "data/reference_audio/i012_A.wav"
+    },
+    {
+      "condition_id": "i012_pB_rB",
+      "group_id": "i012",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "rhythmic clapping with stomping",
+      "reference_file": "data/reference_audio/i012_B.wav"
+    },
+    {
+      "condition_id": "i013_pA_rA",
+      "group_id": "i013",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "playing acoustic guitar",
+      "reference_file": "data/reference_audio/i013_A.wav"
+    },
+    {
+      "condition_id": "i013_pA_rB",
+      "group_id": "i013",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "playing acoustic guitar",
+      "reference_file": "data/reference_audio/i013_B.wav"
+    },
+    {
+      "condition_id": "i013_pB_rA",
+      "group_id": "i013",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "playing bass guitar with deep rumbling tone",
+      "reference_file": "data/reference_audio/i013_A.wav"
+    },
+    {
+      "condition_id": "i013_pB_rB",
+      "group_id": "i013",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "playing bass guitar with deep rumbling tone",
+      "reference_file": "data/reference_audio/i013_B.wav"
+    },
+    {
+      "condition_id": "i014_pA_rA",
+      "group_id": "i014",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "playing piano",
+      "reference_file": "data/reference_audio/i014_A.wav"
+    },
+    {
+      "condition_id": "i014_pA_rB",
+      "group_id": "i014",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "playing piano",
+      "reference_file": "data/reference_audio/i014_B.wav"
+    },
+    {
+      "condition_id": "i014_pB_rA",
+      "group_id": "i014",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "playing toy piano with tinny metallic sound",
+      "reference_file": "data/reference_audio/i014_A.wav"
+    },
+    {
+      "condition_id": "i014_pB_rB",
+      "group_id": "i014",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "playing toy piano with tinny metallic sound",
+      "reference_file": "data/reference_audio/i014_B.wav"
+    },
+    {
+      "condition_id": "i015_pA_rA",
+      "group_id": "i015",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "playing piano",
+      "reference_file": "data/reference_audio/i015_A.wav"
+    },
+    {
+      "condition_id": "i015_pA_rB",
+      "group_id": "i015",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "playing piano",
+      "reference_file": "data/reference_audio/i015_B.wav"
+    },
+    {
+      "condition_id": "i015_pB_rA",
+      "group_id": "i015",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "playing toy piano with tinny metallic sound",
+      "reference_file": "data/reference_audio/i015_A.wav"
+    },
+    {
+      "condition_id": "i015_pB_rB",
+      "group_id": "i015",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "playing toy piano with tinny metallic sound",
+      "reference_file": "data/reference_audio/i015_B.wav"
+    },
+    {
+      "condition_id": "i016_pA_rA",
+      "group_id": "i016",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "playing piano",
+      "reference_file": "data/reference_audio/i016_A.wav"
+    },
+    {
+      "condition_id": "i016_pA_rB",
+      "group_id": "i016",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "playing piano",
+      "reference_file": "data/reference_audio/i016_B.wav"
+    },
+    {
+      "condition_id": "i016_pB_rA",
+      "group_id": "i016",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "playing toy piano with tinny metallic sound",
+      "reference_file": "data/reference_audio/i016_A.wav"
+    },
+    {
+      "condition_id": "i016_pB_rB",
+      "group_id": "i016",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "playing toy piano with tinny metallic sound",
+      "reference_file": "data/reference_audio/i016_B.wav"
+    },
+    {
+      "condition_id": "i017_pA_rA",
+      "group_id": "i017",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "thunder",
+      "reference_file": "data/reference_audio/i017_A.wav"
+    },
+    {
+      "condition_id": "i017_pA_rB",
+      "group_id": "i017",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "thunder",
+      "reference_file": "data/reference_audio/i017_B.wav"
+    },
+    {
+      "condition_id": "i017_pB_rA",
+      "group_id": "i017",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "thunder with hail hitting metal roof",
+      "reference_file": "data/reference_audio/i017_A.wav"
+    },
+    {
+      "condition_id": "i017_pB_rB",
+      "group_id": "i017",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "thunder with hail hitting metal roof",
+      "reference_file": "data/reference_audio/i017_B.wav"
+    },
+    {
+      "condition_id": "i018_pA_rA",
+      "group_id": "i018",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "thunder",
+      "reference_file": "data/reference_audio/i018_A.wav"
+    },
+    {
+      "condition_id": "i018_pA_rB",
+      "group_id": "i018",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "thunder",
+      "reference_file": "data/reference_audio/i018_B.wav"
+    },
+    {
+      "condition_id": "i018_pB_rA",
+      "group_id": "i018",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "thunder with hail hitting metal roof",
+      "reference_file": "data/reference_audio/i018_A.wav"
+    },
+    {
+      "condition_id": "i018_pB_rB",
+      "group_id": "i018",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "thunder with hail hitting metal roof",
+      "reference_file": "data/reference_audio/i018_B.wav"
+    },
+    {
+      "condition_id": "i019_pA_rA",
+      "group_id": "i019",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "waterfall burbling",
+      "reference_file": "data/reference_audio/i019_A.wav"
+    },
+    {
+      "condition_id": "i019_pA_rB",
+      "group_id": "i019",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "waterfall burbling",
+      "reference_file": "data/reference_audio/i019_B.wav"
+    },
+    {
+      "condition_id": "i019_pB_rA",
+      "group_id": "i019",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "ocean waves crashing on shore",
+      "reference_file": "data/reference_audio/i019_A.wav"
+    },
+    {
+      "condition_id": "i019_pB_rB",
+      "group_id": "i019",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "ocean waves crashing on shore",
+      "reference_file": "data/reference_audio/i019_B.wav"
+    },
+    {
+      "condition_id": "i020_pA_rA",
+      "group_id": "i020",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "waterfall burbling",
+      "reference_file": "data/reference_audio/i020_A.wav"
+    },
+    {
+      "condition_id": "i020_pA_rB",
+      "group_id": "i020",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "waterfall burbling",
+      "reference_file": "data/reference_audio/i020_B.wav"
+    },
+    {
+      "condition_id": "i020_pB_rA",
+      "group_id": "i020",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "ocean waves crashing on shore",
+      "reference_file": "data/reference_audio/i020_A.wav"
+    },
+    {
+      "condition_id": "i020_pB_rB",
+      "group_id": "i020",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "ocean waves crashing on shore",
+      "reference_file": "data/reference_audio/i020_B.wav"
+    },
+    {
+      "condition_id": "i021_pA_rA",
+      "group_id": "i021",
+      "text_endpoint": "A",
+      "reference_endpoint": "A",
+      "caption": "waterfall burbling",
+      "reference_file": "data/reference_audio/i021_A.wav"
+    },
+    {
+      "condition_id": "i021_pA_rB",
+      "group_id": "i021",
+      "text_endpoint": "A",
+      "reference_endpoint": "B",
+      "caption": "waterfall burbling",
+      "reference_file": "data/reference_audio/i021_B.wav"
+    },
+    {
+      "condition_id": "i021_pB_rA",
+      "group_id": "i021",
+      "text_endpoint": "B",
+      "reference_endpoint": "A",
+      "caption": "ocean waves crashing on shore",
+      "reference_file": "data/reference_audio/i021_A.wav"
+    },
+    {
+      "condition_id": "i021_pB_rB",
+      "group_id": "i021",
+      "text_endpoint": "B",
+      "reference_endpoint": "B",
+      "caption": "ocean waves crashing on shore",
+      "reference_file": "data/reference_audio/i021_B.wav"
+    }
+  ],
+  "reference_files": [
+    {
+      "file": "data/reference_audio/i000_A.wav",
+      "bytes": 441044,
+      "sha256": "b69af7fec2f45026e5c55f4b32a6367247d2c66d3c50d36535d7052dd24788ba"
+    },
+    {
+      "file": "data/reference_audio/i000_B.wav",
+      "bytes": 441044,
+      "sha256": "d4b8bea45850e53c8d24645befcf03b4f1e4d24ec8c913e119485c5618818e62"
+    },
+    {
+      "file": "data/reference_audio/i001_A.wav",
+      "bytes": 441044,
+      "sha256": "28031346139e20250e300bae688ba778a7c4807f147df9eae7ac0919d95587f7"
+    },
+    {
+      "file": "data/reference_audio/i001_B.wav",
+      "bytes": 441044,
+      "sha256": "0ed06ce49d508fee7e508f896bcf734c63b9e3664ce595867c6851436dc4ba21"
+    },
+    {
+      "file": "data/reference_audio/i002_A.wav",
+      "bytes": 441044,
+      "sha256": "bc69aad0289613bb35d6eac25c51eaee0f895bfdee3a1a717796215b26aeff86"
+    },
+    {
+      "file": "data/reference_audio/i002_B.wav",
+      "bytes": 441044,
+      "sha256": "114c327f8adba02cf0c3b0d6e2573b76952fe7c64fadba81273618e14011b5f8"
+    },
+    {
+      "file": "data/reference_audio/i003_A.wav",
+      "bytes": 441044,
+      "sha256": "00e4ed1968f2fd53ab97a6c975bcb6972e81246b0c365d4544be35b221f8d0ce"
+    },
+    {
+      "file": "data/reference_audio/i003_B.wav",
+      "bytes": 441044,
+      "sha256": "9d3c1b388243d14b352e0d43a69b41e5c547b6178456ec21c5fc7183219ad2be"
+    },
+    {
+      "file": "data/reference_audio/i004_A.wav",
+      "bytes": 441044,
+      "sha256": "564cb0dd86163fffeb0b368d0cf61e4f093e5012eab34e37ca66cf895752fb95"
+    },
+    {
+      "file": "data/reference_audio/i004_B.wav",
+      "bytes": 441044,
+      "sha256": "074b9cd8a779727a01679d5baa46b02d73b9da26dff47222abf4fb4e5a6f0702"
+    },
+    {
+      "file": "data/reference_audio/i005_A.wav",
+      "bytes": 441044,
+      "sha256": "f0a44928106c4230ae6c83e1fbf985ff05ea071d73a2cf4eff789c4f4d96610f"
+    },
+    {
+      "file": "data/reference_audio/i005_B.wav",
+      "bytes": 441044,
+      "sha256": "35b72f399cf1b31baa04cabe623d81b5f75cc113e1e215a00161b17865e0a7f0"
+    },
+    {
+      "file": "data/reference_audio/i006_A.wav",
+      "bytes": 441044,
+      "sha256": "38ac8bb80bfbdf7a6b70f086e0005a0e64a210403157d1841f363c90225ee42f"
+    },
+    {
+      "file": "data/reference_audio/i006_B.wav",
+      "bytes": 441044,
+      "sha256": "298bccc891e9b52d2d5e3cd1e981c8ff6ccf799e8b9743b802caaf28ddfa7374"
+    },
+    {
+      "file": "data/reference_audio/i007_A.wav",
+      "bytes": 441044,
+      "sha256": "8642fa9ae0861acf6f2f09ab83d8efbb286e7a885bc7ec07fc5f2d79b10368c3"
+    },
+    {
+      "file": "data/reference_audio/i007_B.wav",
+      "bytes": 441044,
+      "sha256": "68eafaeb38c6514802379308a7f1c3cdced3dc6893fcdef0d69a67c882a3eee5"
+    },
+    {
+      "file": "data/reference_audio/i008_A.wav",
+      "bytes": 441044,
+      "sha256": "67f0452d2b57b2cda5cc877411ac9ac6acd883e1ff3448238465cba5377f75d6"
+    },
+    {
+      "file": "data/reference_audio/i008_B.wav",
+      "bytes": 441044,
+      "sha256": "edb86a1745674c1ae34d73532b22645285afa3a15d86c406a0a014cb0fa4430e"
+    },
+    {
+      "file": "data/reference_audio/i009_A.wav",
+      "bytes": 441044,
+      "sha256": "84a4f5e489bdc3bd8fb72321897b68ba8064e01c015d7b275a69610fb9f93c73"
+    },
+    {
+      "file": "data/reference_audio/i009_B.wav",
+      "bytes": 441044,
+      "sha256": "1fa1ed260270f799dd5cdfd73b1050bd780759fb032e47d50c054a8a666696ec"
+    },
+    {
+      "file": "data/reference_audio/i010_A.wav",
+      "bytes": 441044,
+      "sha256": "908638cb504c584c7b29d89c258404d7dca1bac658c97af95d2db760fd9ef382"
+    },
+    {
+      "file": "data/reference_audio/i010_B.wav",
+      "bytes": 441044,
+      "sha256": "6dc87e381ae051bb5bda029a8c577bc25959ec5c8f74cd23c39e88399caf6c7e"
+    },
+    {
+      "file": "data/reference_audio/i011_A.wav",
+      "bytes": 441044,
+      "sha256": "f3e1616b723527ecfc4900d975a67f083b90cefc18b33accee31e128991652bc"
+    },
+    {
+      "file": "data/reference_audio/i011_B.wav",
+      "bytes": 441044,
+      "sha256": "1a1220cfcd56e68e3a0348b1b9b3748e76b6735505ea1a7bca6a6ba3ce8d241b"
+    },
+    {
+      "file": "data/reference_audio/i012_A.wav",
+      "bytes": 441044,
+      "sha256": "5a5d7e534c861f53f6f0589d7c0fdbab7e09a6d26751f4a12a072a43b80b1bf3"
+    },
+    {
+      "file": "data/reference_audio/i012_B.wav",
+      "bytes": 441044,
+      "sha256": "0410a47f7f79481646121ea74135eabbd49b02ffa7935fb4bc18bf96cbff1cc7"
+    },
+    {
+      "file": "data/reference_audio/i013_A.wav",
+      "bytes": 441044,
+      "sha256": "40d1d2e2b2857238a829c97a6c7fa814b2733e0c95d519edf058e8d47574cab4"
+    },
+    {
+      "file": "data/reference_audio/i013_B.wav",
+      "bytes": 441044,
+      "sha256": "7749d9f751c85343fa6be052c1e46dcf407784cd3dda3a0710429e8323ecf7f2"
+    },
+    {
+      "file": "data/reference_audio/i014_A.wav",
+      "bytes": 441044,
+      "sha256": "8f969fafd3d0863c4780bd98ef12cf702a9d624e05bc21cab5c2927df4f1ae8c"
+    },
+    {
+      "file": "data/reference_audio/i014_B.wav",
+      "bytes": 441044,
+      "sha256": "e1c1a613170530dd5952391d67d32d2bc284ff0c5c3d5f10fddc35d5629a53c6"
+    },
+    {
+      "file": "data/reference_audio/i015_A.wav",
+      "bytes": 441044,
+      "sha256": "87d26ee686119698813c30dcd9cfb0f1a773d80ab0bfb1d75080ba859983370e"
+    },
+    {
+      "file": "data/reference_audio/i015_B.wav",
+      "bytes": 441044,
+      "sha256": "8eb277959e9f33c490b19dd3cfcfecbea633bf185ee57ee33282fcb86eaff9ff"
+    },
+    {
+      "file": "data/reference_audio/i016_A.wav",
+      "bytes": 441044,
+      "sha256": "b4187931db72d2c490d7927f60df3c3382213b8be34445bd15c6fbb1c96a75cd"
+    },
+    {
+      "file": "data/reference_audio/i016_B.wav",
+      "bytes": 441044,
+      "sha256": "29a000e6bbe2dcb978e03b4182583500a639d29cc4bca6ef92389abac4796f0f"
+    },
+    {
+      "file": "data/reference_audio/i017_A.wav",
+      "bytes": 441044,
+      "sha256": "fc44833597c2fb08122228638c57f1dcb3c0494ba2c9133f2ebcc4cfbff12547"
+    },
+    {
+      "file": "data/reference_audio/i017_B.wav",
+      "bytes": 441044,
+      "sha256": "8d9888efdf9d00bf07c80960b3ac47a4c46f5e50b61e3f06370e46bc8c8b7ea6"
+    },
+    {
+      "file": "data/reference_audio/i018_A.wav",
+      "bytes": 441044,
+      "sha256": "60c0f338f30409813ae2391562242fa94e4fd2b35ee02340d818c81e0779564e"
+    },
+    {
+      "file": "data/reference_audio/i018_B.wav",
+      "bytes": 441044,
+      "sha256": "647652b114a0e7f6fc7439cc6d62b14eee348b85ef9f1ba83ce02fc07ade5841"
+    },
+    {
+      "file": "data/reference_audio/i019_A.wav",
+      "bytes": 441044,
+      "sha256": "b50ad9b2cfd433f7487303cb906a69655b2d682ca501a0027edb5115b5f39873"
+    },
+    {
+      "file": "data/reference_audio/i019_B.wav",
+      "bytes": 441044,
+      "sha256": "4a002a73d2de411b051fc897791fb1b8767fca6ffbc3b10775f07b547ec28a78"
+    },
+    {
+      "file": "data/reference_audio/i020_A.wav",
+      "bytes": 441044,
+      "sha256": "7aa4e60ceadca61c532641ff57707488a823978c458dfaa7fc0b3065fb9c13d1"
+    },
+    {
+      "file": "data/reference_audio/i020_B.wav",
+      "bytes": 441044,
+      "sha256": "245db9d9f5e445463f0f888a790fde9a7c4f66c04d86e0ab968b2e09d032e11a"
+    },
+    {
+      "file": "data/reference_audio/i021_A.wav",
+      "bytes": 441044,
+      "sha256": "ea142f8a6de7c6aa94fe738e5a37515ef90be48e64229acc6fb6872a61cc7d40"
+    },
+    {
+      "file": "data/reference_audio/i021_B.wav",
+      "bytes": 441044,
+      "sha256": "d3856d670043a83d6d05135d04a48520d8c4d1a7d2c0adaae3385a01b6e0c377"
+    }
+  ]
+}
