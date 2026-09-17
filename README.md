@@ -13,6 +13,13 @@ data processing inspectable without relying on an unavailable manuscript.
   text/reference condition records; and
 - `index.html`: a static GitHub-Pages-ready browser for every reference pair.
 
+## Qualitative listener
+
+The [complete listener](./listener/) contains every reported output: 22 groups,
+two fixed generation seeds, both systems, text-only A/B controls, and all four
+text/reference cells. It is supplied for qualitative transparency only; the
+paper's conclusions use the group-level quantitative analysis.
+
 ## Construction and leakage safeguards
 
 Each group fixes one held-out VGGSound anchor and one endpoint-generation seed.

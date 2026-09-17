@@ -1,0 +1,1274 @@
+{
+  "title": "Matched Acoustic-Realization Listener",
+  "description": "All 22 matched groups, the two fixed seeds used in the study, and both compared systems.",
+  "systems": [
+    {
+      "id": "refcon_t2a",
+      "name": "RefCon-T2A"
+    },
+    {
+      "id": "controlfoley",
+      "name": "ControlFoley (zero-video diagnostic)"
+    }
+  ],
+  "seeds": [
+    3,
+    4
+  ],
+  "examples": [
+    {
+      "id": "i000",
+      "group": "i000",
+      "category": "bird_squawking",
+      "text": {
+        "A": "bird squawking",
+        "B": "owl hooting at night"
+      },
+      "references": {
+        "A": "audio/items/i000/reference_A.wav",
+        "B": "audio/items/i000/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i000/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i000/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i000/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i000/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i000/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i000/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i000/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i000/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i000/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i000/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i000/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i000/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i000/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i000/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i000/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i000/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i000/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i000/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i000/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i000/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i000/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i000/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i000/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i000/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i001",
+      "group": "i001",
+      "category": "bird_squawking",
+      "text": {
+        "A": "bird squawking",
+        "B": "owl hooting at night"
+      },
+      "references": {
+        "A": "audio/items/i001/reference_A.wav",
+        "B": "audio/items/i001/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i001/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i001/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i001/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i001/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i001/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i001/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i001/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i001/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i001/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i001/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i001/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i001/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i001/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i001/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i001/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i001/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i001/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i001/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i001/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i001/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i001/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i001/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i001/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i001/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i002",
+      "group": "i002",
+      "category": "bird_squawking",
+      "text": {
+        "A": "bird squawking",
+        "B": "owl hooting at night"
+      },
+      "references": {
+        "A": "audio/items/i002/reference_A.wav",
+        "B": "audio/items/i002/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i002/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i002/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i002/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i002/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i002/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i002/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i002/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i002/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i002/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i002/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i002/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i002/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i002/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i002/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i002/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i002/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i002/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i002/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i002/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i002/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i002/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i002/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i002/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i002/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i003",
+      "group": "i003",
+      "category": "car_engine_starting",
+      "text": {
+        "A": "car engine starting",
+        "B": "motorcycle engine revving loudly"
+      },
+      "references": {
+        "A": "audio/items/i003/reference_A.wav",
+        "B": "audio/items/i003/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i003/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i003/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i003/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i003/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i003/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i003/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i003/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i003/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i003/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i003/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i003/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i003/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i003/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i003/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i003/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i003/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i003/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i003/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i003/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i003/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i003/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i003/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i003/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i003/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i004",
+      "group": "i004",
+      "category": "car_engine_starting",
+      "text": {
+        "A": "car engine starting",
+        "B": "motorcycle engine revving loudly"
+      },
+      "references": {
+        "A": "audio/items/i004/reference_A.wav",
+        "B": "audio/items/i004/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i004/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i004/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i004/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i004/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i004/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i004/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i004/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i004/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i004/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i004/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i004/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i004/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i004/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i004/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i004/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i004/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i004/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i004/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i004/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i004/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i004/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i004/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i004/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i004/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i005",
+      "group": "i005",
+      "category": "cat_meowing",
+      "text": {
+        "A": "cat meowing",
+        "B": "big wild cat growling deeply"
+      },
+      "references": {
+        "A": "audio/items/i005/reference_A.wav",
+        "B": "audio/items/i005/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i005/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i005/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i005/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i005/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i005/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i005/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i005/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i005/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i005/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i005/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i005/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i005/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i005/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i005/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i005/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i005/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i005/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i005/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i005/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i005/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i005/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i005/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i005/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i005/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i006",
+      "group": "i006",
+      "category": "cat_meowing",
+      "text": {
+        "A": "cat meowing",
+        "B": "big wild cat growling deeply"
+      },
+      "references": {
+        "A": "audio/items/i006/reference_A.wav",
+        "B": "audio/items/i006/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i006/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i006/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i006/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i006/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i006/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i006/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i006/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i006/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i006/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i006/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i006/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i006/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i006/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i006/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i006/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i006/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i006/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i006/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i006/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i006/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i006/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i006/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i006/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i006/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i007",
+      "group": "i007",
+      "category": "cat_meowing",
+      "text": {
+        "A": "cat meowing",
+        "B": "big wild cat growling deeply"
+      },
+      "references": {
+        "A": "audio/items/i007/reference_A.wav",
+        "B": "audio/items/i007/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i007/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i007/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i007/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i007/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i007/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i007/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i007/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i007/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i007/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i007/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i007/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i007/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i007/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i007/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i007/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i007/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i007/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i007/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i007/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i007/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i007/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i007/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i007/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i007/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i008",
+      "group": "i008",
+      "category": "dog_barking",
+      "text": {
+        "A": "dog barking",
+        "B": "wolf howling in the distance"
+      },
+      "references": {
+        "A": "audio/items/i008/reference_A.wav",
+        "B": "audio/items/i008/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i008/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i008/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i008/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i008/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i008/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i008/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i008/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i008/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i008/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i008/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i008/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i008/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i008/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i008/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i008/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i008/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i008/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i008/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i008/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i008/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i008/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i008/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i008/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i008/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i009",
+      "group": "i009",
+      "category": "dog_barking",
+      "text": {
+        "A": "dog barking",
+        "B": "wolf howling in the distance"
+      },
+      "references": {
+        "A": "audio/items/i009/reference_A.wav",
+        "B": "audio/items/i009/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i009/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i009/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i009/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i009/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i009/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i009/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i009/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i009/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i009/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i009/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i009/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i009/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i009/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i009/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i009/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i009/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i009/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i009/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i009/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i009/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i009/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i009/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i009/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i009/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i010",
+      "group": "i010",
+      "category": "dog_barking",
+      "text": {
+        "A": "dog barking",
+        "B": "wolf howling in the distance"
+      },
+      "references": {
+        "A": "audio/items/i010/reference_A.wav",
+        "B": "audio/items/i010/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i010/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i010/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i010/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i010/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i010/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i010/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i010/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i010/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i010/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i010/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i010/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i010/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i010/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i010/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i010/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i010/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i010/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i010/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i010/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i010/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i010/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i010/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i010/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i010/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i011",
+      "group": "i011",
+      "category": "door_slamming",
+      "text": {
+        "A": "door slamming",
+        "B": "car door slamming shut"
+      },
+      "references": {
+        "A": "audio/items/i011/reference_A.wav",
+        "B": "audio/items/i011/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i011/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i011/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i011/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i011/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i011/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i011/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i011/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i011/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i011/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i011/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i011/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i011/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i011/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i011/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i011/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i011/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i011/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i011/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i011/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i011/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i011/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i011/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i011/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i011/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i012",
+      "group": "i012",
+      "category": "people_clapping",
+      "text": {
+        "A": "people clapping",
+        "B": "rhythmic clapping with stomping"
+      },
+      "references": {
+        "A": "audio/items/i012/reference_A.wav",
+        "B": "audio/items/i012/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i012/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i012/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i012/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i012/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i012/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i012/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i012/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i012/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i012/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i012/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i012/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i012/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i012/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i012/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i012/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i012/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i012/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i012/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i012/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i012/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i012/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i012/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i012/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i012/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i013",
+      "group": "i013",
+      "category": "playing_acoustic_guitar",
+      "text": {
+        "A": "playing acoustic guitar",
+        "B": "playing bass guitar with deep rumbling tone"
+      },
+      "references": {
+        "A": "audio/items/i013/reference_A.wav",
+        "B": "audio/items/i013/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i013/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i013/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i013/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i013/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i013/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i013/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i013/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i013/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i013/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i013/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i013/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i013/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i013/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i013/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i013/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i013/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i013/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i013/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i013/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i013/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i013/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i013/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i013/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i013/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i014",
+      "group": "i014",
+      "category": "playing_piano",
+      "text": {
+        "A": "playing piano",
+        "B": "playing toy piano with tinny metallic sound"
+      },
+      "references": {
+        "A": "audio/items/i014/reference_A.wav",
+        "B": "audio/items/i014/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i014/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i014/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i014/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i014/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i014/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i014/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i014/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i014/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i014/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i014/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i014/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i014/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i014/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i014/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i014/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i014/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i014/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i014/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i014/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i014/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i014/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i014/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i014/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i014/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i015",
+      "group": "i015",
+      "category": "playing_piano",
+      "text": {
+        "A": "playing piano",
+        "B": "playing toy piano with tinny metallic sound"
+      },
+      "references": {
+        "A": "audio/items/i015/reference_A.wav",
+        "B": "audio/items/i015/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i015/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i015/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i015/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i015/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i015/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i015/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i015/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i015/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i015/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i015/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i015/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i015/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i015/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i015/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i015/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i015/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i015/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i015/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i015/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i015/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i015/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i015/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i015/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i015/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i016",
+      "group": "i016",
+      "category": "playing_piano",
+      "text": {
+        "A": "playing piano",
+        "B": "playing toy piano with tinny metallic sound"
+      },
+      "references": {
+        "A": "audio/items/i016/reference_A.wav",
+        "B": "audio/items/i016/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i016/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i016/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i016/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i016/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i016/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i016/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i016/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i016/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i016/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i016/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i016/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i016/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i016/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i016/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i016/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i016/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i016/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i016/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i016/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i016/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i016/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i016/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i016/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i016/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i017",
+      "group": "i017",
+      "category": "thunder",
+      "text": {
+        "A": "thunder",
+        "B": "thunder with hail hitting metal roof"
+      },
+      "references": {
+        "A": "audio/items/i017/reference_A.wav",
+        "B": "audio/items/i017/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i017/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i017/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i017/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i017/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i017/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i017/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i017/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i017/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i017/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i017/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i017/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i017/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i017/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i017/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i017/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i017/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i017/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i017/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i017/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i017/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i017/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i017/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i017/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i017/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i018",
+      "group": "i018",
+      "category": "thunder",
+      "text": {
+        "A": "thunder",
+        "B": "thunder with hail hitting metal roof"
+      },
+      "references": {
+        "A": "audio/items/i018/reference_A.wav",
+        "B": "audio/items/i018/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i018/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i018/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i018/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i018/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i018/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i018/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i018/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i018/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i018/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i018/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i018/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i018/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i018/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i018/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i018/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i018/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i018/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i018/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i018/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i018/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i018/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i018/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i018/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i018/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i019",
+      "group": "i019",
+      "category": "waterfall_burbling",
+      "text": {
+        "A": "waterfall burbling",
+        "B": "ocean waves crashing on shore"
+      },
+      "references": {
+        "A": "audio/items/i019/reference_A.wav",
+        "B": "audio/items/i019/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i019/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i019/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i019/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i019/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i019/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i019/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i019/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i019/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i019/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i019/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i019/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i019/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i019/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i019/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i019/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i019/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i019/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i019/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i019/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i019/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i019/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i019/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i019/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i019/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i020",
+      "group": "i020",
+      "category": "waterfall_burbling",
+      "text": {
+        "A": "waterfall burbling",
+        "B": "ocean waves crashing on shore"
+      },
+      "references": {
+        "A": "audio/items/i020/reference_A.wav",
+        "B": "audio/items/i020/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i020/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i020/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i020/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i020/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i020/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i020/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i020/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i020/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i020/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i020/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i020/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i020/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i020/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i020/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i020/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i020/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i020/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i020/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i020/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i020/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i020/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i020/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i020/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i020/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "i021",
+      "group": "i021",
+      "category": "waterfall_burbling",
+      "text": {
+        "A": "waterfall burbling",
+        "B": "ocean waves crashing on shore"
+      },
+      "references": {
+        "A": "audio/items/i021/reference_A.wav",
+        "B": "audio/items/i021/reference_B.wav"
+      },
+      "systems": {
+        "refcon_t2a": {
+          "name": "RefCon-T2A",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i021/seed_3/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i021/seed_3/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i021/seed_3/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i021/seed_3/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i021/seed_3/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i021/seed_3/refcon_t2a/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i021/seed_4/refcon_t2a/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i021/seed_4/refcon_t2a/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i021/seed_4/refcon_t2a/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i021/seed_4/refcon_t2a/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i021/seed_4/refcon_t2a/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i021/seed_4/refcon_t2a/text_B_reference_B.wav"
+            }
+          }
+        },
+        "controlfoley": {
+          "name": "ControlFoley (zero-video diagnostic)",
+          "outputs": {
+            "3": {
+              "text_A_no_reference": "audio/items/i021/seed_3/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i021/seed_3/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i021/seed_3/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i021/seed_3/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i021/seed_3/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i021/seed_3/controlfoley/text_B_reference_B.wav"
+            },
+            "4": {
+              "text_A_no_reference": "audio/items/i021/seed_4/controlfoley/text_A_no_reference.wav",
+              "text_B_no_reference": "audio/items/i021/seed_4/controlfoley/text_B_no_reference.wav",
+              "text_A_reference_A": "audio/items/i021/seed_4/controlfoley/text_A_reference_A.wav",
+              "text_A_reference_B": "audio/items/i021/seed_4/controlfoley/text_A_reference_B.wav",
+              "text_B_reference_A": "audio/items/i021/seed_4/controlfoley/text_B_reference_A.wav",
+              "text_B_reference_B": "audio/items/i021/seed_4/controlfoley/text_B_reference_B.wav"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
