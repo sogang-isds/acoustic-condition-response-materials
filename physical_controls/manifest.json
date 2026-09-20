@@ -49,6 +49,23 @@
                   "text_B_reference_B": "audio/speed/i000/seed_4/controlfoley/text_B_reference_B.wav"
                 }
               }
+            },
+            "acfoley": {
+              "name": "AC-Foley (zero-video diagnostic)",
+              "outputs": {
+                "3": {
+                  "text_A_reference_A": "audio/speed/i000/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i000/seed_3/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/speed/i000/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i000/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "text_A_reference_A": "audio/speed/i000/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i000/seed_4/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/speed/i000/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i000/seed_4/acfoley/text_B_reference_B.wav"
+                }
+              }
             }
           }
         },
@@ -95,6 +112,23 @@
                   "text_A_reference_B": "audio/speed/i032/seed_4/controlfoley/text_A_reference_B.wav",
                   "text_B_reference_A": "audio/speed/i032/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/speed/i032/seed_4/controlfoley/text_B_reference_B.wav"
+                }
+              }
+            },
+            "acfoley": {
+              "name": "AC-Foley (zero-video diagnostic)",
+              "outputs": {
+                "3": {
+                  "text_A_reference_A": "audio/speed/i032/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i032/seed_3/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/speed/i032/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i032/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "text_A_reference_A": "audio/speed/i032/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i032/seed_4/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/speed/i032/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i032/seed_4/acfoley/text_B_reference_B.wav"
                 }
               }
             }
@@ -145,6 +179,23 @@
                   "text_B_reference_B": "audio/speed/i064/seed_4/controlfoley/text_B_reference_B.wav"
                 }
               }
+            },
+            "acfoley": {
+              "name": "AC-Foley (zero-video diagnostic)",
+              "outputs": {
+                "3": {
+                  "text_A_reference_A": "audio/speed/i064/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i064/seed_3/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/speed/i064/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i064/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "text_A_reference_A": "audio/speed/i064/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i064/seed_4/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/speed/i064/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i064/seed_4/acfoley/text_B_reference_B.wav"
+                }
+              }
             }
           }
         },
@@ -191,6 +242,23 @@
                   "text_A_reference_B": "audio/speed/i096/seed_4/controlfoley/text_A_reference_B.wav",
                   "text_B_reference_A": "audio/speed/i096/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/speed/i096/seed_4/controlfoley/text_B_reference_B.wav"
+                }
+              }
+            },
+            "acfoley": {
+              "name": "AC-Foley (zero-video diagnostic)",
+              "outputs": {
+                "3": {
+                  "text_A_reference_A": "audio/speed/i096/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i096/seed_3/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/speed/i096/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i096/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "text_A_reference_A": "audio/speed/i096/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i096/seed_4/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/speed/i096/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i096/seed_4/acfoley/text_B_reference_B.wav"
                 }
               }
             }
@@ -247,6 +315,23 @@
                   "text_B_reference_B": "audio/pitch/i064/seed_4/controlfoley/text_B_reference_B.wav"
                 }
               }
+            },
+            "acfoley": {
+              "name": "AC-Foley (zero-video diagnostic)",
+              "outputs": {
+                "3": {
+                  "text_A_reference_A": "audio/pitch/i064/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/pitch/i064/seed_3/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/pitch/i064/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/pitch/i064/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "text_A_reference_A": "audio/pitch/i064/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/pitch/i064/seed_4/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/pitch/i064/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/pitch/i064/seed_4/acfoley/text_B_reference_B.wav"
+                }
+              }
             }
           }
         },
@@ -293,6 +378,23 @@
                   "text_A_reference_B": "audio/pitch/i032/seed_4/controlfoley/text_A_reference_B.wav",
                   "text_B_reference_A": "audio/pitch/i032/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i032/seed_4/controlfoley/text_B_reference_B.wav"
+                }
+              }
+            },
+            "acfoley": {
+              "name": "AC-Foley (zero-video diagnostic)",
+              "outputs": {
+                "3": {
+                  "text_A_reference_A": "audio/pitch/i032/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/pitch/i032/seed_3/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/pitch/i032/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/pitch/i032/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "text_A_reference_A": "audio/pitch/i032/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/pitch/i032/seed_4/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/pitch/i032/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/pitch/i032/seed_4/acfoley/text_B_reference_B.wav"
                 }
               }
             }
@@ -343,6 +445,23 @@
                   "text_B_reference_B": "audio/pitch/i000/seed_4/controlfoley/text_B_reference_B.wav"
                 }
               }
+            },
+            "acfoley": {
+              "name": "AC-Foley (zero-video diagnostic)",
+              "outputs": {
+                "3": {
+                  "text_A_reference_A": "audio/pitch/i000/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/pitch/i000/seed_3/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/pitch/i000/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/pitch/i000/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "text_A_reference_A": "audio/pitch/i000/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/pitch/i000/seed_4/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/pitch/i000/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/pitch/i000/seed_4/acfoley/text_B_reference_B.wav"
+                }
+              }
             }
           }
         },
@@ -389,6 +508,23 @@
                   "text_A_reference_B": "audio/pitch/i096/seed_4/controlfoley/text_A_reference_B.wav",
                   "text_B_reference_A": "audio/pitch/i096/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i096/seed_4/controlfoley/text_B_reference_B.wav"
+                }
+              }
+            },
+            "acfoley": {
+              "name": "AC-Foley (zero-video diagnostic)",
+              "outputs": {
+                "3": {
+                  "text_A_reference_A": "audio/pitch/i096/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/pitch/i096/seed_3/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/pitch/i096/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/pitch/i096/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "text_A_reference_A": "audio/pitch/i096/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/pitch/i096/seed_4/acfoley/text_A_reference_B.wav",
+                  "text_B_reference_A": "audio/pitch/i096/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/pitch/i096/seed_4/acfoley/text_B_reference_B.wav"
                 }
               }
             }

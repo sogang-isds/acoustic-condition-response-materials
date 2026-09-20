@@ -16,14 +16,17 @@ data processing inspectable without relying on an unavailable manuscript.
 ## Qualitative listener
 
 The [complete listener](./listener/) contains every reported output: 22 groups,
-two fixed generation seeds, both systems, text-only A/B controls, and all four
-text/reference cells. It is supplied for qualitative transparency only; the
+two fixed generation seeds, all three systems, text-only A/B controls, and all
+four text/reference cells. It is supplied for qualitative transparency only; the
 paper's conclusions use the group-level quantitative analysis.
 
 The [physical-control listener](./physical_controls/) separately exposes the
 speed, pitch, and volume interventions. It uses the first recording from every
-source class in the full test (4/4/8 examples), both systems, and both seeds;
-it lets a reader hear the actual 2×2 manipulation behind the physical results.
+source class in the full test (4/4/8 examples) and both seeds. All three systems
+are shown for speed and pitch. Volume shows RefCon-T2A and ControlFoley only,
+because AC-Foley used a different normalization and seed protocol and is not a
+matched comparison. The page lets a reader hear the actual 2×2 manipulation
+behind the physical results.
 
 ## Construction and leakage safeguards
 
@@ -38,7 +41,7 @@ For the AC-T2A test, a system receives only one caption and one released
 reference waveform. It never receives the anchor video, raw anchor audio, or a
 target waveform. The four cells per group cross text A/B and reference A/B;
 two text-only controls and fixed generation seeds 3/4 complete the protocol.
-The two compared systems use identical group IDs, captions, reference files,
+The three compared systems use identical group IDs, captions, reference files,
 cell assignments, seeds, duration, and sampling steps.
 
 ## Interpretation limits
