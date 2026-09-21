@@ -4,6 +4,15 @@ This author-neutral repository supports the 22-group matched counterfactual
 evaluation in the accompanying ICASSP submission. It makes the test-specific
 data processing inspectable without relying on an unavailable manuscript.
 
+## Listening landing page
+
+The repository root is a short listening tour of the paper's central claim:
+under the same acoustic reference and generation seed, does changing the text
+still produce a meaningful output change? It includes six interpretable
+three-system comparisons, one matched 2x2 example for each reported factor,
+and links to the complete evidence. The previous all-reference browser is
+preserved as `data_card.html`.
+
 ## What is included
 
 - all 44 released 5-second reference waveforms (A/B for 22 groups);
