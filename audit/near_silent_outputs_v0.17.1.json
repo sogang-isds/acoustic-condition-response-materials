@@ -1,0 +1,851 @@
+{
+ "threshold_peak": 0.01,
+ "threshold_dbfs": -40.0,
+ "runs": {
+  "speed/refcon": {
+   "root": "t2a_attribute_multiclass_causal32_20260910/mix/runs/rate",
+   "n_wav": 2304,
+   "n_near_silent": 0,
+   "items_affected": [],
+   "files": []
+  },
+  "speed/controlfoley": {
+   "root": "t2a_attribute_multiclass_causal32_20260910/controlfoley/runs/rate",
+   "n_wav": 2304,
+   "n_near_silent": 2,
+   "items_affected": [
+    52
+   ],
+   "files": [
+    {
+     "file": "seed4/ref/pred/i052_p0_r1.wav",
+     "peak": 3.0517578125e-05,
+     "peak_dbfs": -90.30899841457513
+    },
+    {
+     "file": "seed4/ref/pred/i052_p1_r1.wav",
+     "peak": 3.0517578125e-05,
+     "peak_dbfs": -90.30899841457513
+    }
+   ]
+  },
+  "speed/acfoley": {
+   "root": "t2a_attribute_multiclass_causal32_20260910/acfoley/runs/rate",
+   "n_wav": 2304,
+   "n_near_silent": 44,
+   "items_affected": [
+    20,
+    29,
+    43,
+    48,
+    64,
+    69,
+    87,
+    96,
+    100,
+    104,
+    105,
+    106,
+    109,
+    110,
+    113,
+    116,
+    117,
+    118,
+    121,
+    122
+   ],
+   "files": [
+    {
+     "file": "seed3/noref/pred/i020_p1.wav",
+     "peak": 0.000762939453125,
+     "peak_dbfs": -62.35019851436884
+    },
+    {
+     "file": "seed3/noref/pred/i020_p2.wav",
+     "peak": 0.00054931640625,
+     "peak_dbfs": -65.20354858131606
+    },
+    {
+     "file": "seed3/noref/pred/i043_p1.wav",
+     "peak": 0.00299072265625,
+     "peak_dbfs": -50.48447718244019
+    },
+    {
+     "file": "seed3/noref/pred/i064_p0.wav",
+     "peak": 0.00970458984375,
+     "peak_dbfs": -40.26045629861067
+    },
+    {
+     "file": "seed3/noref/pred/i064_p1.wav",
+     "peak": 0.00994873046875,
+     "peak_dbfs": -40.04464669696251
+    },
+    {
+     "file": "seed3/noref/pred/i087_p0.wav",
+     "peak": 0.0037841796875,
+     "peak_dbfs": -48.44056499365435
+    },
+    {
+     "file": "seed3/noref/pred/i087_p1.wav",
+     "peak": 0.0057373046875,
+     "peak_dbfs": -44.82584171240683
+    },
+    {
+     "file": "seed3/noref/pred/i087_p2.wav",
+     "peak": 0.0030517578125,
+     "peak_dbfs": -50.30899869634816
+    },
+    {
+     "file": "seed3/noref/pred/i096_p1.wav",
+     "peak": 0.00537109375,
+     "peak_dbfs": -45.39874534129421
+    },
+    {
+     "file": "seed3/noref/pred/i105_p1.wav",
+     "peak": 0.000946044921875,
+     "peak_dbfs": -60.481764813327636
+    },
+    {
+     "file": "seed3/noref/pred/i106_p2.wav",
+     "peak": 0.002593994140625,
+     "peak_dbfs": -51.720620181560044
+    },
+    {
+     "file": "seed3/noref/pred/i110_p0.wav",
+     "peak": 0.005889892578125,
+     "peak_dbfs": -44.597852517564164
+    },
+    {
+     "file": "seed3/noref/pred/i110_p2.wav",
+     "peak": 0.00250244140625,
+     "peak_dbfs": -52.03272164804906
+    },
+    {
+     "file": "seed3/noref/pred/i113_p0.wav",
+     "peak": 0.000823974609375,
+     "peak_dbfs": -61.68172340547316
+    },
+    {
+     "file": "seed3/noref/pred/i113_p1.wav",
+     "peak": 0.00152587890625,
+     "peak_dbfs": -56.329598606781595
+    },
+    {
+     "file": "seed3/noref/pred/i113_p2.wav",
+     "peak": 0.0009765625,
+     "peak_dbfs": -60.20599912390189
+    },
+    {
+     "file": "seed3/noref/pred/i117_p2.wav",
+     "peak": 0.004791259765625,
+     "peak_dbfs": -46.39100564919681
+    },
+    {
+     "file": "seed3/noref/pred/i121_p0.wav",
+     "peak": 0.001129150390625,
+     "peak_dbfs": -58.94496421016204
+    },
+    {
+     "file": "seed3/noref/pred/i121_p1.wav",
+     "peak": 0.00115966796875,
+     "peak_dbfs": -58.71332675936817
+    },
+    {
+     "file": "seed3/noref/pred/i121_p2.wav",
+     "peak": 0.00103759765625,
+     "peak_dbfs": -59.6794203499781
+    },
+    {
+     "file": "seed3/noref/pred/i122_p2.wav",
+     "peak": 0.0020751953125,
+     "peak_dbfs": -53.65882044088406
+    },
+    {
+     "file": "seed3/ref/pred/i096_p0_r0.wav",
+     "peak": 0.00067138671875,
+     "peak_dbfs": -63.460545069812994
+    },
+    {
+     "file": "seed4/noref/pred/i029_p2.wav",
+     "peak": 0.0008544921875,
+     "peak_dbfs": -61.365838062185
+    },
+    {
+     "file": "seed4/noref/pred/i048_p0.wav",
+     "peak": 0.000885009765625,
+     "peak_dbfs": -61.06103873140078
+    },
+    {
+     "file": "seed4/noref/pred/i048_p1.wav",
+     "peak": 0.000762939453125,
+     "peak_dbfs": -62.35019851436884
+    },
+    {
+     "file": "seed4/noref/pred/i048_p2.wav",
+     "peak": 0.000762939453125,
+     "peak_dbfs": -62.35019851436884
+    },
+    {
+     "file": "seed4/noref/pred/i069_p0.wav",
+     "peak": 0.0009765625,
+     "peak_dbfs": -60.20599912390189
+    },
+    {
+     "file": "seed4/noref/pred/i069_p1.wav",
+     "peak": 0.00079345703125,
+     "peak_dbfs": -62.00953172883111
+    },
+    {
+     "file": "seed4/noref/pred/i069_p2.wav",
+     "peak": 0.0008544921875,
+     "peak_dbfs": -61.365838062185
+    },
+    {
+     "file": "seed4/noref/pred/i096_p0.wav",
+     "peak": 0.001922607421875,
+     "peak_dbfs": -54.32218770560496
+    },
+    {
+     "file": "seed4/noref/pred/i096_p2.wav",
+     "peak": 0.0015869140625,
+     "peak_dbfs": -55.98893182102493
+    },
+    {
+     "file": "seed4/noref/pred/i100_p1.wav",
+     "peak": 0.007080078125,
+     "peak_dbfs": -42.99923900014956
+    },
+    {
+     "file": "seed4/noref/pred/i104_p2.wav",
+     "peak": 0.00390625,
+     "peak_dbfs": -48.1647993040134
+    },
+    {
+     "file": "seed4/noref/pred/i109_p1.wav",
+     "peak": 0.00775146484375,
+     "peak_dbfs": -42.212324365675045
+    },
+    {
+     "file": "seed4/noref/pred/i110_p0.wav",
+     "peak": 0.0013427734375,
+     "peak_dbfs": -57.43994516300199
+    },
+    {
+     "file": "seed4/noref/pred/i110_p1.wav",
+     "peak": 0.007415771484375,
+     "peak_dbfs": -42.59687322605684
+    },
+    {
+     "file": "seed4/noref/pred/i110_p2.wav",
+     "peak": 0.0018310546875,
+     "peak_dbfs": -54.74597368677784
+    },
+    {
+     "file": "seed4/noref/pred/i116_p0.wav",
+     "peak": 0.001708984375,
+     "peak_dbfs": -55.345238153987864
+    },
+    {
+     "file": "seed4/noref/pred/i116_p1.wav",
+     "peak": 0.0091552734375,
+     "peak_dbfs": -40.76657360385238
+    },
+    {
+     "file": "seed4/noref/pred/i116_p2.wav",
+     "peak": 0.009765625,
+     "peak_dbfs": -40.2059991319068
+    },
+    {
+     "file": "seed4/noref/pred/i118_p0.wav",
+     "peak": 0.0018310546875,
+     "peak_dbfs": -54.74597368677784
+    },
+    {
+     "file": "seed4/ref/pred/i096_p0_r0.wav",
+     "peak": 0.000701904296875,
+     "peak_dbfs": -63.07444196646776
+    },
+    {
+     "file": "seed4/ref/pred/i096_p1_r0.wav",
+     "peak": 0.000579833984375,
+     "peak_dbfs": -64.73392666515781
+    },
+    {
+     "file": "seed4/ref/pred/i096_p2_r0.wav",
+     "peak": 0.0006103515625,
+     "peak_dbfs": -64.28839877168377
+    }
+   ]
+  },
+  "pitch/refcon": {
+   "root": "t2a_attribute_multiclass_causal32_20260910/mix/runs/pitch",
+   "n_wav": 2304,
+   "n_near_silent": 0,
+   "items_affected": [],
+   "files": []
+  },
+  "pitch/controlfoley": {
+   "root": "t2a_attribute_multiclass_causal32_20260910/controlfoley/runs/pitch",
+   "n_wav": 2304,
+   "n_near_silent": 8,
+   "items_affected": [
+    31,
+    42,
+    113
+   ],
+   "files": [
+    {
+     "file": "seed3/ref/pred/i031_p0_r1.wav",
+     "peak": 3.0517578125e-05,
+     "peak_dbfs": -90.30899841457513
+    },
+    {
+     "file": "seed3/ref/pred/i031_p1_r1.wav",
+     "peak": 3.0517578125e-05,
+     "peak_dbfs": -90.30899841457513
+    },
+    {
+     "file": "seed3/ref/pred/i031_p2_r1.wav",
+     "peak": 3.0517578125e-05,
+     "peak_dbfs": -90.30899841457513
+    },
+    {
+     "file": "seed3/ref/pred/i113_p1_r1.wav",
+     "peak": 0.00433349609375,
+     "peak_dbfs": -47.263231809528875
+    },
+    {
+     "file": "seed3/ref/pred/i113_p2_r1.wav",
+     "peak": 0.00323486328125,
+     "peak_dbfs": -49.80288139121386
+    },
+    {
+     "file": "seed4/ref/pred/i042_p0_r0.wav",
+     "peak": 3.0517578125e-05,
+     "peak_dbfs": -90.30899841457513
+    },
+    {
+     "file": "seed4/ref/pred/i042_p1_r0.wav",
+     "peak": 3.0517578125e-05,
+     "peak_dbfs": -90.30899841457513
+    },
+    {
+     "file": "seed4/ref/pred/i042_p2_r0.wav",
+     "peak": 3.0517578125e-05,
+     "peak_dbfs": -90.30899841457513
+    }
+   ]
+  },
+  "pitch/acfoley": {
+   "root": "t2a_attribute_multiclass_causal32_20260910/acfoley/runs/pitch",
+   "n_wav": 2304,
+   "n_near_silent": 10,
+   "items_affected": [
+    26,
+    28,
+    49,
+    98,
+    103,
+    120
+   ],
+   "files": [
+    {
+     "file": "seed3/noref/pred/i026_p0.wav",
+     "peak": 0.0010986328125,
+     "peak_dbfs": -59.18294867594252
+    },
+    {
+     "file": "seed3/noref/pred/i026_p1.wav",
+     "peak": 0.0010986328125,
+     "peak_dbfs": -59.18294867594252
+    },
+    {
+     "file": "seed3/noref/pred/i026_p2.wav",
+     "peak": 0.0009765625,
+     "peak_dbfs": -60.20599912390189
+    },
+    {
+     "file": "seed3/noref/pred/i028_p1.wav",
+     "peak": 0.000701904296875,
+     "peak_dbfs": -63.07444196646776
+    },
+    {
+     "file": "seed3/noref/pred/i098_p1.wav",
+     "peak": 0.003082275390625,
+     "peak_dbfs": -50.222571220723495
+    },
+    {
+     "file": "seed4/noref/pred/i049_p0.wav",
+     "peak": 0.00079345703125,
+     "peak_dbfs": -62.00953172883111
+    },
+    {
+     "file": "seed4/noref/pred/i049_p1.wav",
+     "peak": 0.001220703125,
+     "peak_dbfs": -58.26779886551962
+    },
+    {
+     "file": "seed4/noref/pred/i049_p2.wav",
+     "peak": 0.000946044921875,
+     "peak_dbfs": -60.481764813327636
+    },
+    {
+     "file": "seed4/noref/pred/i103_p1.wav",
+     "peak": 0.0008544921875,
+     "peak_dbfs": -61.365838062185
+    },
+    {
+     "file": "seed4/noref/pred/i120_p1.wav",
+     "peak": 0.000579833984375,
+     "peak_dbfs": -64.73392666515781
+    }
+   ]
+  },
+  "volume/refcon": {
+   "root": "t2a_attribute_loudness_causal16x8_20260910/mix/runs/loudness",
+   "n_wav": 2304,
+   "n_near_silent": 4,
+   "items_affected": [
+    51,
+    105
+   ],
+   "files": [
+    {
+     "file": "seed4/noref/pred/i051_p0.wav",
+     "peak": 0.00189208984375,
+     "peak_dbfs": -54.46116490463865
+    },
+    {
+     "file": "seed4/noref/pred/i051_p1.wav",
+     "peak": 0.0023193359375,
+     "peak_dbfs": -52.69272684983355
+    },
+    {
+     "file": "seed4/noref/pred/i051_p2.wav",
+     "peak": 0.00177001953125,
+     "peak_dbfs": -55.04043882302838
+    },
+    {
+     "file": "seed4/ref/pred/i105_p1_r1.wav",
+     "peak": 0.0093994140625,
+     "peak_dbfs": -40.537984368261384
+    }
+   ]
+  },
+  "volume/controlfoley": {
+   "root": "t2a_attribute_loudness_causal16x8_20260910/controlfoley/runs/loudness",
+   "n_wav": 2304,
+   "n_near_silent": 1,
+   "items_affected": [
+    124
+   ],
+   "files": [
+    {
+     "file": "seed3/ref/pred/i124_p1_r0.wav",
+     "peak": 0.001678466796875,
+     "peak_dbfs": -55.50174490413458
+    }
+   ]
+  },
+  "volume/acfoley": {
+   "root": "t2a_attribute_loudness_causal16x8_20260910/acfoley_no_peak_norm_diagnostic/runs/loudness",
+   "n_wav": 2304,
+   "n_near_silent": 46,
+   "items_affected": [
+    31,
+    36,
+    39,
+    42,
+    43,
+    47,
+    48,
+    49,
+    51,
+    52,
+    54,
+    55,
+    56,
+    57,
+    59,
+    61,
+    63,
+    81
+   ],
+   "files": [
+    {
+     "file": "seed3/noref/pred/i036_p0.wav",
+     "peak": 0.00262451171875,
+     "peak_dbfs": -51.61902967101348
+    },
+    {
+     "file": "seed3/noref/pred/i036_p2.wav",
+     "peak": 0.00201416015625,
+     "peak_dbfs": -53.91811998404457
+    },
+    {
+     "file": "seed3/noref/pred/i039_p2.wav",
+     "peak": 0.000885009765625,
+     "peak_dbfs": -61.06103873140078
+    },
+    {
+     "file": "seed3/noref/pred/i043_p2.wav",
+     "peak": 0.000762939453125,
+     "peak_dbfs": -62.35019851436884
+    },
+    {
+     "file": "seed3/noref/pred/i049_p1.wav",
+     "peak": 0.007080078125,
+     "peak_dbfs": -42.99923900014956
+    },
+    {
+     "file": "seed3/noref/pred/i051_p1.wav",
+     "peak": 0.00238037109375,
+     "peak_dbfs": -52.46710664173578
+    },
+    {
+     "file": "seed3/noref/pred/i052_p2.wav",
+     "peak": 0.007476806640625,
+     "peak_dbfs": -42.525677010741994
+    },
+    {
+     "file": "seed3/noref/pred/i054_p0.wav",
+     "peak": 0.000701904296875,
+     "peak_dbfs": -63.07444196646776
+    },
+    {
+     "file": "seed3/noref/pred/i054_p1.wav",
+     "peak": 0.000732421875,
+     "peak_dbfs": -62.704773853103106
+    },
+    {
+     "file": "seed3/noref/pred/i054_p2.wav",
+     "peak": 0.00067138671875,
+     "peak_dbfs": -63.460545069812994
+    },
+    {
+     "file": "seed3/noref/pred/i056_p1.wav",
+     "peak": 0.000732421875,
+     "peak_dbfs": -62.704773853103106
+    },
+    {
+     "file": "seed3/noref/pred/i061_p1.wav",
+     "peak": 0.00982666015625,
+     "peak_dbfs": -40.15188126439383
+    },
+    {
+     "file": "seed3/noref/pred/i063_p0.wav",
+     "peak": 0.000823974609375,
+     "peak_dbfs": -61.68172340547316
+    },
+    {
+     "file": "seed3/noref/pred/i063_p1.wav",
+     "peak": 0.0008544921875,
+     "peak_dbfs": -61.365838062185
+    },
+    {
+     "file": "seed3/noref/pred/i063_p2.wav",
+     "peak": 0.000762939453125,
+     "peak_dbfs": -62.35019851436884
+    },
+    {
+     "file": "seed3/ref/pred/i048_p0_r0.wav",
+     "peak": 0.000579833984375,
+     "peak_dbfs": -64.73392666515781
+    },
+    {
+     "file": "seed3/ref/pred/i048_p0_r1.wav",
+     "peak": 0.00079345703125,
+     "peak_dbfs": -62.00953172883111
+    },
+    {
+     "file": "seed3/ref/pred/i048_p1_r0.wav",
+     "peak": 0.00054931640625,
+     "peak_dbfs": -65.20354858131606
+    },
+    {
+     "file": "seed3/ref/pred/i048_p1_r1.wav",
+     "peak": 0.000762939453125,
+     "peak_dbfs": -62.35019851436884
+    },
+    {
+     "file": "seed3/ref/pred/i048_p2_r0.wav",
+     "peak": 0.00054931640625,
+     "peak_dbfs": -65.20354858131606
+    },
+    {
+     "file": "seed3/ref/pred/i048_p2_r1.wav",
+     "peak": 0.000701904296875,
+     "peak_dbfs": -63.07444196646776
+    },
+    {
+     "file": "seed4/noref/pred/i031_p0.wav",
+     "peak": 0.00091552734375,
+     "peak_dbfs": -60.76657359531381
+    },
+    {
+     "file": "seed4/noref/pred/i031_p1.wav",
+     "peak": 0.001678466796875,
+     "peak_dbfs": -55.50174490413458
+    },
+    {
+     "file": "seed4/noref/pred/i031_p2.wav",
+     "peak": 0.00091552734375,
+     "peak_dbfs": -60.76657359531381
+    },
+    {
+     "file": "seed4/noref/pred/i042_p0.wav",
+     "peak": 0.007537841796875,
+     "peak_dbfs": -42.45505963284874
+    },
+    {
+     "file": "seed4/noref/pred/i042_p2.wav",
+     "peak": 0.00531005859375,
+     "peak_dbfs": -45.49801373190662
+    },
+    {
+     "file": "seed4/noref/pred/i047_p2.wav",
+     "peak": 0.004791259765625,
+     "peak_dbfs": -46.39100564919681
+    },
+    {
+     "file": "seed4/noref/pred/i048_p1.wav",
+     "peak": 0.000946044921875,
+     "peak_dbfs": -60.481764813327636
+    },
+    {
+     "file": "seed4/noref/pred/i049_p0.wav",
+     "peak": 0.000732421875,
+     "peak_dbfs": -62.704773853103106
+    },
+    {
+     "file": "seed4/noref/pred/i049_p1.wav",
+     "peak": 0.000823974609375,
+     "peak_dbfs": -61.68172340547316
+    },
+    {
+     "file": "seed4/noref/pred/i049_p2.wav",
+     "peak": 0.00091552734375,
+     "peak_dbfs": -60.76657359531381
+    },
+    {
+     "file": "seed4/noref/pred/i054_p1.wav",
+     "peak": 0.00274658203125,
+     "peak_dbfs": -51.224148507245424
+    },
+    {
+     "file": "seed4/noref/pred/i055_p1.wav",
+     "peak": 0.000701904296875,
+     "peak_dbfs": -63.07444196646776
+    },
+    {
+     "file": "seed4/noref/pred/i057_p1.wav",
+     "peak": 0.002166748046875,
+     "peak_dbfs": -53.28383172080413
+    },
+    {
+     "file": "seed4/noref/pred/i059_p1.wav",
+     "peak": 0.00103759765625,
+     "peak_dbfs": -59.6794203499781
+    },
+    {
+     "file": "seed4/noref/pred/i081_p0.wav",
+     "peak": 0.000579833984375,
+     "peak_dbfs": -64.73392666515781
+    },
+    {
+     "file": "seed4/noref/pred/i081_p1.wav",
+     "peak": 0.0015869140625,
+     "peak_dbfs": -55.98893182102493
+    },
+    {
+     "file": "seed4/noref/pred/i081_p2.wav",
+     "peak": 0.00054931640625,
+     "peak_dbfs": -65.20354858131606
+    },
+    {
+     "file": "seed4/ref/pred/i048_p0_r0.wav",
+     "peak": 0.0006103515625,
+     "peak_dbfs": -64.28839877168377
+    },
+    {
+     "file": "seed4/ref/pred/i048_p0_r1.wav",
+     "peak": 0.0006103515625,
+     "peak_dbfs": -64.28839877168377
+    },
+    {
+     "file": "seed4/ref/pred/i048_p1_r0.wav",
+     "peak": 0.000701904296875,
+     "peak_dbfs": -63.07444196646776
+    },
+    {
+     "file": "seed4/ref/pred/i048_p1_r1.wav",
+     "peak": 0.0006103515625,
+     "peak_dbfs": -64.28839877168377
+    },
+    {
+     "file": "seed4/ref/pred/i048_p2_r0.wav",
+     "peak": 0.00067138671875,
+     "peak_dbfs": -63.460545069812994
+    },
+    {
+     "file": "seed4/ref/pred/i048_p2_r1.wav",
+     "peak": 0.00054931640625,
+     "peak_dbfs": -65.20354858131606
+    },
+    {
+     "file": "seed4/ref/pred/i057_p1_r0.wav",
+     "peak": 0.00439453125,
+     "peak_dbfs": -47.14174885531284
+    },
+    {
+     "file": "seed4/ref/pred/i057_p2_r0.wav",
+     "peak": 0.004638671875,
+     "peak_dbfs": -46.672126938426416
+    }
+   ]
+  },
+  "speed/refcon_beta0.5": {
+   "root": "refcon_beta_full_v017_20260923/beta_0p5/runs/rate",
+   "n_wav": 2304,
+   "n_near_silent": 0,
+   "items_affected": [],
+   "files": []
+  },
+  "pitch/refcon_beta0.5": {
+   "root": "refcon_beta_full_v017_20260923/beta_0p5/runs/pitch",
+   "n_wav": 2304,
+   "n_near_silent": 0,
+   "items_affected": [],
+   "files": []
+  },
+  "volume/refcon_beta0.5": {
+   "root": "refcon_beta_full_v017_20260923/beta_0p5/runs/loudness",
+   "n_wav": 2304,
+   "n_near_silent": 5,
+   "items_affected": [
+    51,
+    105
+   ],
+   "files": [
+    {
+     "file": "seed4/noref/pred/i051_p0.wav",
+     "peak": 0.00189208984375,
+     "peak_dbfs": -54.46116490463865
+    },
+    {
+     "file": "seed4/noref/pred/i051_p1.wav",
+     "peak": 0.0023193359375,
+     "peak_dbfs": -52.69272684983355
+    },
+    {
+     "file": "seed4/noref/pred/i051_p2.wav",
+     "peak": 0.00177001953125,
+     "peak_dbfs": -55.04043882302838
+    },
+    {
+     "file": "seed4/ref/pred/i051_p1_r1.wav",
+     "peak": 0.005157470703125,
+     "peak_dbfs": -45.751264605236756
+    },
+    {
+     "file": "seed4/ref/pred/i105_p1_r0.wav",
+     "peak": 0.0084228515625,
+     "peak_dbfs": -41.49081705685877
+    }
+   ]
+  },
+  "speed/refcon_beta2": {
+   "root": "refcon_beta_full_v017_20260923/beta_2p0/runs/rate",
+   "n_wav": 2304,
+   "n_near_silent": 3,
+   "items_affected": [
+    98
+   ],
+   "files": [
+    {
+     "file": "seed3/ref/pred/i098_p0_r1.wav",
+     "peak": 0.00689697265625,
+     "peak_dbfs": -43.22682991498696
+    },
+    {
+     "file": "seed3/ref/pred/i098_p1_r1.wav",
+     "peak": 0.00921630859375,
+     "peak_dbfs": -40.7088598391089
+    },
+    {
+     "file": "seed3/ref/pred/i098_p2_r1.wav",
+     "peak": 0.0076904296875,
+     "peak_dbfs": -42.28098788243403
+    }
+   ]
+  },
+  "pitch/refcon_beta2": {
+   "root": "refcon_beta_full_v017_20260923/beta_2p0/runs/pitch",
+   "n_wav": 2304,
+   "n_near_silent": 0,
+   "items_affected": [],
+   "files": []
+  },
+  "volume/refcon_beta2": {
+   "root": "refcon_beta_full_v017_20260923/beta_2p0/runs/loudness",
+   "n_wav": 2304,
+   "n_near_silent": 3,
+   "items_affected": [
+    51
+   ],
+   "files": [
+    {
+     "file": "seed4/noref/pred/i051_p0.wav",
+     "peak": 0.00189208984375,
+     "peak_dbfs": -54.46116490463865
+    },
+    {
+     "file": "seed4/noref/pred/i051_p1.wav",
+     "peak": 0.0023193359375,
+     "peak_dbfs": -52.69272684983355
+    },
+    {
+     "file": "seed4/noref/pred/i051_p2.wav",
+     "peak": 0.00177001953125,
+     "peak_dbfs": -55.04043882302838
+    }
+   ]
+  },
+  "realization/all_systems": {
+   "root": "t2a_eacl_matched_realization23_20260911",
+   "n_wav": 880,
+   "n_near_silent": 2,
+   "items_affected": [
+    1,
+    2
+   ],
+   "files": [
+    {
+     "file": "acfoley/runs/variant/seed4/noref/pred/i001_pB.wav",
+     "peak": 0.00421142578125,
+     "peak_dbfs": -47.511416969107174
+    },
+    {
+     "file": "acfoley/runs/variant/seed4/noref/pred/i002_pB.wav",
+     "peak": 0.0029296875,
+     "peak_dbfs": -50.6635740354382
+    }
+   ]
+  },
+  "realization/refcon_beta0.5": {
+   "root": "refcon_beta_full_v017_20260923/beta_0p5/realization/runs",
+   "n_wav": 264,
+   "n_near_silent": 0,
+   "items_affected": [],
+   "files": []
+  },
+  "realization/refcon_beta2": {
+   "root": "refcon_beta_full_v017_20260923/beta_2p0/realization/runs",
+   "n_wav": 264,
+   "n_near_silent": 0,
+   "items_affected": [],
+   "files": []
+  }
+ }
+}

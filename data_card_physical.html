@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Physical-Factor Evaluation Data Card — Who Controls the Sound?</title>
+  <style>
+    :root{--ink:#182230;--muted:#596575;--line:#dce3e9;--paper:#f8fafc;--blue:#1769d2;--soft:#edf4ff;--warn:#fff4dc}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.58 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:var(--blue)}.wrap{width:min(1020px,calc(100% - 32px));margin:auto}header{padding:44px 0 28px;background:#fff;border-bottom:1px solid var(--line)}h1{font-size:clamp(31px,5vw,48px);letter-spacing:-.04em;line-height:1.05;margin:0 0 10px}h2{margin:35px 0 9px;font-size:25px}h3{margin:22px 0 6px}.lead{font-size:17px;color:var(--muted);max-width:850px}main{padding:20px 0 60px}.note{padding:14px 16px;border-radius:10px;background:var(--soft);color:#204e82}.warn{background:var(--warn);color:#704900;padding:13px 15px;border-radius:10px}table{width:100%;border-collapse:collapse;background:#fff;margin:12px 0;display:block;overflow:auto}th,td{padding:9px 11px;border:1px solid var(--line);vertical-align:top;text-align:left}th{background:#f2f5f8}code{background:#edf0f3;padding:2px 4px;border-radius:4px}.links{columns:2;column-gap:28px}.links li{break-inside:avoid;margin-bottom:7px}.foot{padding:24px 0;color:var(--muted);font-size:13px}@media(max-width:720px){.links{columns:1}}
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><h1>Physical-factor evaluation data card</h1><p class="lead">Exact construction, generation settings, exclusions, and machine-readable audits for the speed, pitch, and volume experiments used in the paper.</p></div></header>
+  <main><div class="wrap">
+    <p class="note"><b>Scope.</b> This is an evaluation release, not a training-data release. It redistributes controlled reference waveforms and generated outputs only; original VGGSound video and raw anchor audio are not included.</p>
+
+    <h2>1. Recordings and interventions</h2>
+    <p>Source recordings come from the held-out VGGSound test split and are disjoint from training. Speed and pitch each contain four classes × 32 recordings; volume contains eight classes × 16 recordings. Every factor therefore begins with 128 source recordings and is generated with seeds 3 and 4.</p>
+    <table><thead><tr><th>Factor</th><th>Classes</th><th>Reference A / B</th><th>Primary estimator</th><th>Secondary estimator</th></tr></thead><tbody>
+      <tr><td>Speed</td><td>dog bark, footsteps, keyboard, snare</td><td>0.70× / 1.40× time stretch</td><td>Onset density (Hz)</td><td>Energy-peak rate</td></tr>
+      <tr><td>Pitch</td><td>horn, bird, bell, male singing</td><td>−5 / +5 semitones</td><td>YIN F0 (semitones)</td><td>Spectral-peak frequency</td></tr>
+      <tr><td>Volume</td><td>dog bark, footsteps, keyboard, snare, horn, bird, bell, male singing</td><td>−12 / 0 dB gain</td><td>Integrated loudness (LUFS)</td><td>RMS level</td></tr>
+    </tbody></table>
+    <p>Each A/B pair is derived from the same source recording. Speed and pitch pairs are RMS-matched after editing. Volume is not RMS-matched because gain is the planned intervention. References exposed to the models are 5-s mono 44.1-kHz clips; each interface consumes the duration stated below.</p>
+
+    <h2>2. Text templates</h2>
+    <table><thead><tr><th>Factor</th><th>Class</th><th>Text A</th><th>Text B</th></tr></thead><tbody>
+      <tr><td rowspan="4">Speed</td><td>dog bark</td><td>A dog barking slowly with widely spaced barks.</td><td>A dog barking rapidly in quick succession.</td></tr>
+      <tr><td>footsteps</td><td>Slow footsteps on snow with widely spaced steps.</td><td>Rapid footsteps on snow in quick succession.</td></tr>
+      <tr><td>keyboard</td><td>Typing slowly with widely spaced keystrokes on a computer keyboard.</td><td>Typing rapidly on a computer keyboard.</td></tr>
+      <tr><td>snare</td><td>Slow, widely spaced hits on a snare drum.</td><td>Rapid hits on a snare drum in quick succession.</td></tr>
+      <tr><td rowspan="4">Pitch</td><td>horn</td><td>A low-pitched vehicle horn honking.</td><td>A high-pitched vehicle horn honking.</td></tr>
+      <tr><td>bird</td><td>A bird making low-pitched chirps.</td><td>A bird making high-pitched chirps.</td></tr>
+      <tr><td>bell</td><td>A low-pitched church bell ringing.</td><td>A high-pitched church bell ringing.</td></tr>
+      <tr><td>male singing</td><td>A man singing in a low pitch.</td><td>A man singing in a high pitch.</td></tr>
+      <tr><td rowspan="8">Volume</td><td>dog bark</td><td>A dog barking quietly.</td><td>A dog barking loudly.</td></tr>
+      <tr><td>footsteps</td><td>Quiet footsteps on snow.</td><td>Loud footsteps on snow.</td></tr>
+      <tr><td>keyboard</td><td>Quiet typing on a computer keyboard.</td><td>Loud typing on a computer keyboard.</td></tr>
+      <tr><td>snare</td><td>A snare drum being played quietly.</td><td>A snare drum being played loudly.</td></tr>
+      <tr><td>horn</td><td>A vehicle horn honking quietly.</td><td>A vehicle horn honking loudly.</td></tr>
+      <tr><td>bird</td><td>A bird chirping quietly.</td><td>A bird chirping loudly.</td></tr>
+      <tr><td>bell</td><td>A church bell ringing quietly.</td><td>A church bell ringing loudly.</td></tr>
+      <tr><td>male singing</td><td>A man singing quietly.</td><td>A man singing loudly.</td></tr>
+    </tbody></table>
+
+    <h2>3. Generation settings</h2>
+    <p>All systems use the same two initial-noise seeds (3 and 4), 25 sampling steps, and 8-s mono 44.1-kHz output. Within a 2×2 group, the initial noise is identical across all four text/reference cells.</p>
+    <table><thead><tr><th>System</th><th>Guidance</th><th>Reference consumed</th><th>Status</th></tr></thead><tbody>
+      <tr><td>RefCon-T2A</td><td>text α=3; reference β=1</td><td>5 s</td><td>Proposed AC-T2A interface</td></tr>
+      <tr><td>ControlFoley</td><td>native guidance 4.5</td><td>5 s semantic; first 2 s timbre</td><td>Zero-video diagnostic</td></tr>
+      <tr><td>AC-Foley</td><td>native guidance 4.5</td><td>2.02 s</td><td>Zero-video diagnostic; peak normalization disabled only for volume</td></tr>
+    </tbody></table>
+    <p>ControlFoley and AC-Foley were trained with random dropout of conditioning modalities, so their released text and reference pathways can run without video; their authors did not evaluate this zero-video setting. The results characterize these end-to-end interfaces at the disclosed operating points.</p>
+
+    <h2>4. Exclusion rule and retained counts</h2>
+    <p>An item is excluded for <em>all</em> systems if any generated cell from any system has peak amplitude below 0.01 (−40 dBFS) or an undefined estimator. This common-set rule keeps comparisons paired and yields speed n=107, pitch n=119, and volume n=108.</p>
+    <table><thead><tr><th>Factor</th><th>System causing near-silent item(s)</th><th>Item IDs</th></tr></thead><tbody>
+      <tr><td rowspan="2">Speed</td><td>ControlFoley</td><td>i052</td></tr>
+      <tr><td>AC-Foley</td><td>i020, i029, i043, i048, i064, i069, i087, i096, i100, i104, i105, i106, i109, i110, i113, i116, i117, i118, i121, i122</td></tr>
+      <tr><td rowspan="2">Pitch</td><td>ControlFoley</td><td>i031, i042, i113</td></tr>
+      <tr><td>AC-Foley</td><td>i026, i028, i049, i098, i103, i120</td></tr>
+      <tr><td rowspan="3">Volume</td><td>RefCon-T2A</td><td>i051, i105</td></tr>
+      <tr><td>ControlFoley</td><td>i124</td></tr>
+      <tr><td>AC-Foley</td><td>i031, i036, i039, i042, i043, i047, i048, i049, i051, i052, i054, i055, i056, i057, i059, i061, i063, i081</td></tr>
+    </tbody></table>
+    <p class="warn"><b>Interpretation.</b> A larger R_ref or R_text means that an output attribute moved farther when that condition changed. It is a response in physical units, not an audio-quality score.</p>
+
+    <h2>5. Public manifests, audits, and hashes</h2>
+    <ul class="links">
+      <li><a href="physical_controls/manifest.json">Physical-listener manifest</a></li>
+      <li><a href="beta_controls/manifest.json">Reference-guidance listener manifest</a></li>
+      <li><a href="audit/attribute_transfer_noref_v0.13.0.json">Three-system response and no-reference audit</a></li>
+      <li><a href="audit/acfoley_volume_two_seed_v0.17.0.json">AC-Foley volume two-seed audit</a></li>
+      <li><a href="audit/near_silent_outputs_v0.17.1.json">Near-silent output scan</a></li>
+      <li><a href="audit/silence_exclusion_reaggregation_v0.17.1.json">Common-set reaggregation</a></li>
+      <li><a href="audit/paired_system_differences_v0.17.1.json">Paired system differences</a></li>
+      <li><a href="audit/output_integrity_v0.17.0.json">Output integrity audit</a></li>
+      <li><a href="audit/refcon_beta_0p5_speed_v0.17.0.json">β=0.5 speed</a> / <a href="audit/refcon_beta_2p0_speed_v0.17.0.json">β=2 speed</a></li>
+      <li><a href="audit/refcon_beta_0p5_pitch_v0.17.0.json">β=0.5 pitch</a> / <a href="audit/refcon_beta_2p0_pitch_v0.17.0.json">β=2 pitch</a></li>
+      <li><a href="audit/refcon_beta_0p5_volume_v0.17.0.json">β=0.5 volume</a> / <a href="audit/refcon_beta_2p0_volume_v0.17.0.json">β=2 volume</a></li>
+      <li><a href="audit/public_physical_waveforms_sha256.txt">SHA-256 for public physical-control waveforms</a></li>
+    </ul>
+    <p>The static listener uses <code>preload="none"</code>; audio is fetched only when played.</p>
+  </div></main>
+  <footer class="foot"><div class="wrap"><a href="./">Back to overview</a> · <a href="physical_controls/">Open physical 2×2 listener</a></div></footer>
+</body>
+</html>

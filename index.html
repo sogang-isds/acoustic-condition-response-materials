@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <title>Who Controls the Sound? — AC-T2A Listening Examples</title>
+  <title>Who Controls the Sound? Measuring Text and Reference Control in Acoustic-Conditioned Text-to-Audio</title>
   <style>
     :root {
       --ink:#17202a; --muted:#5d6875; --line:#dce2e8; --paper:#fbfcfd;
@@ -44,7 +44,7 @@
     .matrix{display:grid;grid-template-columns:minmax(180px,.75fr) 1fr 1fr;border:1px solid var(--line);border-radius:12px;overflow:hidden}.matrix>div{min-width:0;padding:11px 12px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
     .matrix>div:nth-child(3n){border-right:0}.matrix>div:nth-last-child(-n+3){border-bottom:0}.matrix .corner,.matrix .colhead{background:#f5f7f9;color:#53606e;font-size:12px;font-weight:750;text-transform:uppercase;letter-spacing:.04em}
     .matrix .rowhead{background:#fafbfc;font-weight:700}.matrix .rowhead small{display:block;color:var(--muted);font-weight:500;margin-top:3px}
-    .evidence-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.evidence-card{padding:20px;box-shadow:none}.evidence-card p{color:var(--muted)}.evidence-card a{font-weight:750}
+    .evidence-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.evidence-card{padding:20px;box-shadow:none}.evidence-card p{color:var(--muted)}.evidence-card a{font-weight:750}.archive{margin-top:28px;padding-top:23px;border-top:1px dashed var(--line)}.archive>p{color:var(--muted);margin:5px 0 15px}.archive .evidence-grid{grid-template-columns:repeat(2,1fr)}
     .caveat{margin-top:24px;padding:17px 19px;background:var(--amber-soft);border-left:4px solid #d78300;border-radius:0 12px 12px 0;color:#67430f}
     footer{padding:34px 0 52px;color:var(--muted);font-size:13px}code{background:#eef1f4;border-radius:4px;padding:2px 5px}
     @media(max-width:820px){nav{display:none}.section-head{grid-template-columns:1fr}.example-head,.axis-top{align-items:stretch;flex-direction:column}.reference{padding:12px 0 0;border-left:0;border-top:1px solid var(--line);min-width:0}.comparison{table-layout:auto;display:block;overflow-x:auto}.comparison th,.comparison td{min-width:180px}.matrix{grid-template-columns:145px minmax(190px,1fr) minmax(190px,1fr);overflow-x:auto}.evidence-grid{grid-template-columns:1fr}}
@@ -54,14 +54,14 @@
   <header class="topbar"><div class="wrap"><div class="brand">AC-T2A Condition Response</div><nav aria-label="Page sections"><a href="#quick">Quick comparison</a><a href="#factorial">2×2 test</a><a href="#evidence">Full evidence</a></nav><button class="stop" id="stopAll" type="button">Stop all audio</button></div></header>
   <div class="hero"><div class="wrap">
     <div class="eyebrow">Listening companion · acoustic-conditioned text-to-audio</div>
-    <h1>Who controls the sound?</h1>
+    <h1>Who Controls the Sound? Measuring Text and Reference Control in Acoustic-Conditioned Text-to-Audio</h1>
     <p class="lead">An acoustic reference can improve style and realization, but it can also silence a valid text instruction. These listening examples isolate which input changes the output.</p>
-    <div class="claim"><strong>Main observation.</strong> Under the same reference and generation seed, RefCon-T2A retains a larger audible response to text changes. The comparison is about <em>residual text controllability</em>, not a claim that one system always has better perceptual quality.</div>
-    <div class="chips"><span class="chip">Same reference</span><span class="chip">Same initial noise</span><span class="chip">Three systems</span><span class="chip">Four control factors</span><span class="chip">22 groups × 2 seeds</span></div>
+    <div class="claim"><strong>Main observation.</strong> Under the same reference and initial noise, all three systems follow the reference, but RefCon-T2A has the largest measured text response on every factor and keeps most of its no-reference text response, whereas the zero-video diagnostics lose most of theirs once a reference is attached. This is about <em>residual text controllability</em>, not audio quality.</div>
+    <div class="chips"><span class="chip">Same reference</span><span class="chip">Same initial noise</span><span class="chip">Three systems</span><span class="chip">Three factors</span><span class="chip">128 recordings per factor × 2 seeds</span></div>
   </div></div>
   <main>
     <section id="quick"><div class="wrap">
-      <div class="section-head"><div><h2>1. Keep the reference fixed. Change only the text.</h2><p>Six interpretable pairs spanning animals, instruments, and environmental sounds. These examples are a listening aid; the paper's quantitative claims use the complete evaluation.</p></div><div class="instruction"><strong>How to listen:</strong> within each model column, compare the first and second player. A larger, meaningful A→B change means the text remains active after the reference is inserted.</div></div>
+      <div class="section-head"><div><h2>1. Keep the reference fixed. Change only the text.</h2><p>Six physical-factor pairs: the first retained dog-bark and footsteps recordings for speed, horn and bird for pitch, and bell and bird for volume. This deterministic rule is fixed before listening; the paper's quantitative claims use the complete common recording set.</p></div><div class="instruction"><strong>How to listen:</strong> within each model column, compare the first and second player. A larger, meaningful A→B change means the text remains active after the reference is inserted.</div></div>
       <div class="controls"><label for="quickSeed">Generation seed</label><select id="quickSeed"><option value="3">Seed 3</option><option value="4">Seed 4</option></select></div>
       <div class="examples" id="quickExamples"></div>
     </div></section>
@@ -71,37 +71,37 @@
       <div class="axis-list" id="axisList"></div>
     </div></section>
     <section id="evidence"><div class="wrap">
-      <div class="section-head"><div><h2>3. Inspect the complete evidence</h2><p>The short tour above is not a substitute for the full set. Every reported group, seed, condition, and released waveform remains available.</p></div></div>
+      <div class="section-head"><div><h2>3. Inspect the complete evidence</h2><p>The short tour above is not a substitute for the full set. The listener exposes both seeds, all three systems, all displayed source classes, text-only controls, and every crossed text/reference cell.</p></div></div>
       <div class="evidence-grid">
-        <article class="evidence-card"><h3>All 22 realization groups</h3><p>Every reference pair, text-only control, four crossed text/reference cells, two seeds, and all three systems.</p><a href="listener/">Open the complete listener →</a></article>
-        <article class="evidence-card"><h3>All physical-control examples</h3><p>Speed, pitch, and volume interventions for every source class exposed by the evaluation listener.</p><a href="physical_controls/">Open physical controls →</a></article>
-        <article class="evidence-card"><h3>Data card and audit metadata</h3><p>Construction rules, exclusions, exact assignments, hashes, and all released reference pairs.</p><a href="data_card.html">Open the evaluation data card →</a></article>
+        <article class="evidence-card"><h3>Physical 2×2 listener</h3><p>Speed, pitch, and volume with no-reference A/B, both references, two seeds, and all three systems.</p><a href="physical_controls/">Open physical controls →</a></article>
+        <article class="evidence-card"><h3>Physical-factor data card</h3><p>Construction, text templates, generation settings, complete exclusions, manifests, audits, and waveform hashes.</p><a href="data_card_physical.html">Open data card →</a></article>
+        <article class="evidence-card"><h3>Reference-guidance β</h3><p>The same RefCon-T2A item and initial noise at β=0.5, 1, and 2, with the paper's response summary.</p><a href="beta_controls/">Open operating-point listener →</a></article>
       </div>
-      <div class="caveat"><strong>Interpretation limits.</strong> ControlFoley and AC-Foley are zero-video diagnostic adaptations, not official AC-T2A baselines. AC-Foley volume is omitted because its released preprocessing and seed protocol are not matched. A stronger condition response does not by itself imply better audio quality, and the realization endpoints may also differ in source identity.</div>
+      <div class="archive"><h3>Archive — not used in the paper</h3><p>Earlier matched-realization materials; removed from the paper because endpoint validity needs perceptual validation.</p><div class="evidence-grid"><article class="evidence-card"><h3>All 22 realization groups</h3><p>Legacy matched-realization listener retained for link stability.</p><a href="listener/">Open archived listener →</a></article><article class="evidence-card"><h3>Realization data card</h3><p>Legacy construction rules and assignment metadata.</p><a href="data_card.html">Open archived data card →</a></article></div></div>
+      <div class="caveat"><strong>Interpretation limits.</strong> ControlFoley and AC-Foley are zero-video diagnostics: their released text and reference pathways run without video, both were trained with random dropout of conditioning modalities, but their authors did not evaluate this setting. AC-Foley's peak normalization is disabled only for the volume test, and each system consumes the reference differently (RefCon-T2A 5 s; ControlFoley 5 s semantic / 2 s timbre; AC-Foley 2.02 s). Outputs with peak below −40 dBFS were excluded for all systems (speed 21, pitch 9, volume 20 recordings). A stronger response does not imply better audio quality.</div>
     </div></section>
   </main>
   <footer><div class="wrap">Static evaluation companion. No original VGGSound video or raw anchor audio is redistributed. Audio is loaded only when played.</div></footer>
   <script>
     const systems=[{id:'refcon_t2a',name:'RefCon-T2A'},{id:'controlfoley',name:'ControlFoley'},{id:'acfoley',name:'AC-Foley'}];
     const quick=[
-      {id:'i005',label:'Cat → wild cat',a:'cat meowing',b:'big wild cat growling deeply'},
-      {id:'i008',label:'Dog → wolf',a:'dog barking',b:'wolf howling in the distance'},
-      {id:'i013',label:'Acoustic → bass guitar',a:'playing acoustic guitar',b:'playing bass guitar with deep rumbling tone'},
-      {id:'i014',label:'Piano → toy piano',a:'playing piano',b:'playing toy piano with tinny metallic sound'},
-      {id:'i017',label:'Thunder → hail',a:'thunder',b:'thunder with hail hitting metal roof'},
-      {id:'i019',label:'Waterfall → ocean',a:'waterfall burbling',b:'ocean waves crashing on shore'}
+      {factor:'speed',id:'i000',label:'Speed · dog bark',a:'A dog barking slowly with widely spaced barks.',b:'A dog barking rapidly in quick succession.'},
+      {factor:'speed',id:'i032',label:'Speed · footsteps',a:'Slow footsteps on snow with widely spaced steps.',b:'Rapid footsteps on snow in quick succession.'},
+      {factor:'pitch',id:'i000',label:'Pitch · horn',a:'A low-pitched vehicle horn honking.',b:'A high-pitched vehicle horn honking.'},
+      {factor:'pitch',id:'i032',label:'Pitch · bird',a:'A bird making low-pitched chirps.',b:'A bird making high-pitched chirps.'},
+      {factor:'volume',id:'i096',label:'Volume · bell',a:'A church bell ringing quietly.',b:'A church bell ringing loudly.'},
+      {factor:'volume',id:'i080',label:'Volume · bird',a:'A bird chirping quietly.',b:'A bird chirping loudly.'}
     ];
     const axes=[
-      {id:'speed',title:'Speed',subtitle:'Slow ↔ fast snare hits',kind:'physical',item:'i096',a:'Slow, widely spaced hits on a snare drum.',b:'Rapid hits on a snare drum in quick succession.',refA:'0.70× time stretch (slow)',refB:'1.40× time stretch (fast)',models:systems},
-      {id:'pitch',title:'Pitch',subtitle:'Low ↔ high church bell',kind:'physical',item:'i064',a:'A low-pitched church bell ringing.',b:'A high-pitched church bell ringing.',refA:'−5 semitones (low)',refB:'+5 semitones (high)',models:systems},
-      {id:'volume',title:'Volume',subtitle:'Quiet ↔ loud dog bark',kind:'physical',item:'i000',a:'A dog barking quietly.',b:'A dog barking loudly.',refA:'−12 dB (quiet)',refB:'0 dB (loud)',models:systems.slice(0,2)},
-      {id:'timbre',title:'Timbre / realization',subtitle:'Piano ↔ toy piano',kind:'realization',item:'i014',a:'playing piano',b:'playing toy piano with tinny metallic sound',refA:'Reference endpoint A',refB:'Reference endpoint B',models:systems}
+      {id:'speed',title:'Speed',subtitle:'Slow ↔ fast dog bark',kind:'physical',item:'i000',a:'A dog barking slowly with widely spaced barks.',b:'A dog barking rapidly in quick succession.',refA:'0.70× time stretch (slow)',refB:'1.40× time stretch (fast)',models:systems},
+      {id:'pitch',title:'Pitch',subtitle:'Low ↔ high vehicle horn',kind:'physical',item:'i000',a:'A low-pitched vehicle horn honking.',b:'A high-pitched vehicle horn honking.',refA:'−5 semitones (low)',refB:'+5 semitones (high)',models:systems},
+      {id:'volume',title:'Volume',subtitle:'Quiet ↔ loud church bell',kind:'physical',item:'i096',a:'A church bell ringing quietly.',b:'A church bell ringing loudly.',refA:'−12 dB (quiet)',refB:'0 dB (loud)',models:systems}
     ];
     const audio=src=>`<audio controls preload="none" src="${src}"></audio>`;
-    const quickPath=(item,seed,model,text)=>`listener/audio/items/${item}/seed_${seed}/${model}/text_${text}_reference_A.wav`;
+    const quickPath=(factor,item,seed,model,text)=>`physical_controls/audio/${factor}/${item}/seed_${seed}/${model}/text_${text}_reference_A.wav`;
     function renderQuick(){
       const seed=document.getElementById('quickSeed').value;
-      document.getElementById('quickExamples').innerHTML=quick.map((x,index)=>`<article class="example"><div class="example-head"><div><h3>${index+1}. ${x.label}</h3><div class="meta">Reference A is fixed for every output below · seed ${seed}</div></div><div class="reference"><b>Fixed acoustic reference</b>${audio(`listener/audio/items/${x.id}/reference_A.wav`)}</div></div><table class="comparison"><thead><tr><th>Text instruction</th>${systems.map(s=>`<th>${s.name}</th>`).join('')}</tr></thead><tbody><tr><td class="prompt">Text A<small>${x.a}</small></td>${systems.map(s=>`<td><span class="model-name">${s.name} · Text A</span>${audio(quickPath(x.id,seed,s.id,'A'))}</td>`).join('')}</tr><tr><td class="prompt">Text B<small>${x.b}</small></td>${systems.map(s=>`<td><span class="model-name">${s.name} · Text B</span>${audio(quickPath(x.id,seed,s.id,'B'))}</td>`).join('')}</tr></tbody></table></article>`).join('');
+      document.getElementById('quickExamples').innerHTML=quick.map((x,index)=>`<article class="example"><div class="example-head"><div><h3>${index+1}. ${x.label}</h3><div class="meta">Reference A is fixed for every output below · seed ${seed}</div></div><div class="reference"><b>Fixed acoustic reference</b>${audio(`physical_controls/audio/${x.factor}/${x.id}/reference_A.wav`)}</div></div><table class="comparison"><thead><tr><th>Text instruction</th>${systems.map(s=>`<th>${s.name}</th>`).join('')}</tr></thead><tbody><tr><td class="prompt">Text A<small>${x.a}</small></td>${systems.map(s=>`<td><span class="model-name">${s.name} · Text A</span>${audio(quickPath(x.factor,x.id,seed,s.id,'A'))}</td>`).join('')}</tr><tr><td class="prompt">Text B<small>${x.b}</small></td>${systems.map(s=>`<td><span class="model-name">${s.name} · Text B</span>${audio(quickPath(x.factor,x.id,seed,s.id,'B'))}</td>`).join('')}</tr></tbody></table></article>`).join('');
     }
     function conditionPath(axis,seed,model,text,ref){return axis.kind==='physical'?`physical_controls/audio/${axis.id}/${axis.item}/seed_${seed}/${model}/text_${text}_reference_${ref}.wav`:`listener/audio/items/${axis.item}/seed_${seed}/${model}/text_${text}_reference_${ref}.wav`}
     function referencePath(axis,ref){return axis.kind==='physical'?`physical_controls/audio/${axis.id}/${axis.item}/reference_${ref}.wav`:`listener/audio/items/${axis.item}/reference_${ref}.wav`}

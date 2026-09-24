@@ -1,41 +1,38 @@
-# Matched Acoustic-Realization Evaluation Materials
+# Who Controls the Sound? Evaluation Materials
 
-This author-neutral repository supports the 22-group matched counterfactual
-evaluation in the accompanying ICASSP submission. It makes the test-specific
-data processing inspectable without relying on an unavailable manuscript.
+This author-neutral repository supports the speed, pitch, and volume
+counterfactual evaluations in the accompanying ICASSP submission. It makes the
+test-specific data processing and exclusions inspectable.
 
 ## Listening landing page
 
 The repository root is a short listening tour of the paper's central claim:
-under the same acoustic reference and generation seed, does changing the text
-still produce a meaningful output change? It includes six interpretable
-three-system comparisons, one matched 2x2 example for each reported factor,
-and links to the complete evidence. The previous all-reference browser is
-preserved as `data_card.html`.
+under the same acoustic reference and initial noise, does changing the text
+still produce a meaningful output change? It includes six deterministic
+three-system comparisons, one matched 2x2 example for each physical factor,
+and links to the complete evidence and audits.
 
-## What is included
+## Paper-aligned materials
 
-- all 44 released 5-second reference waveforms (A/B for 22 groups);
-- `metadata/matched_acoustic_realization_release.json`: captions, every A/B
-  assignment, selection facts, and SHA-256 hashes;
-- `metadata/matched_acoustic_realization_conditions.csv`: 88 crossed
-  text/reference condition records; and
-- `index.html`: a static GitHub-Pages-ready browser for every reference pair.
+- `physical_controls/`: speed, pitch, and volume listener with no-reference
+  controls, both seeds, and three systems;
+- `beta_controls/`: RefCon-T2A reference-guidance operating-point listener;
+- `data_card_physical.html`: construction, templates, settings, exclusions,
+  audit links, and SHA-256 hashes; and
+- `audit/`: machine-readable analyses used by the paper.
 
 ## Qualitative listener
 
-The [complete listener](./listener/) contains every reported output: 22 groups,
-two fixed generation seeds, all three systems, text-only A/B controls, and all
-four text/reference cells. It is supplied for qualitative transparency only; the
-paper's conclusions use the group-level quantitative analysis.
-
 The [physical-control listener](./physical_controls/) separately exposes the
-speed, pitch, and volume interventions. It uses the first recording from every
-source class in the full test (4/4/8 examples) and both seeds. All three systems
-are shown for speed and pitch. Volume shows RefCon-T2A and ControlFoley only,
-because AC-Foley used a different normalization and seed protocol and is not a
-matched comparison. The page lets a reader hear the actual 2×2 manipulation
-behind the physical results.
+source class remaining after the common near-silence exclusion (4/4/8 examples)
+and both seeds. All three systems are shown for all factors. AC-Foley volume
+uses peak normalization off so the controlled gain intervention is preserved.
+
+## Archive — not used in the paper
+
+The [22-group realization listener](./listener/) and its
+[data card](./data_card.html) are retained for link stability. They were
+removed from the paper because endpoint validity needs perceptual validation.
 
 ## Construction and leakage safeguards
 

@@ -1,0 +1,236 @@
+{
+  "version": "v0.19",
+  "seeds": [
+    3,
+    4
+  ],
+  "axes": [
+    {
+      "id": "speed",
+      "change": "Reference A: 0.70× time stretch (slow); Reference B: 1.40× time stretch (fast).",
+      "sample": {
+        "id": "i000",
+        "source_class": "dog_bark",
+        "text": {
+          "A": "A dog barking slowly with widely spaced barks.",
+          "B": "A dog barking rapidly in quick succession."
+        },
+        "references": {
+          "A": "../physical_controls/audio/speed/i000/reference_A.wav",
+          "B": "../physical_controls/audio/speed/i000/reference_B.wav"
+        }
+      },
+      "betas": {
+        "0.5": {
+          "3": {
+            "text_A_reference_A": "audio/speed/i000/seed_3/beta_0p5/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/speed/i000/seed_3/beta_0p5/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/speed/i000/seed_3/beta_0p5/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/speed/i000/seed_3/beta_0p5/text_B_reference_B.wav"
+          },
+          "4": {
+            "text_A_reference_A": "audio/speed/i000/seed_4/beta_0p5/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/speed/i000/seed_4/beta_0p5/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/speed/i000/seed_4/beta_0p5/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/speed/i000/seed_4/beta_0p5/text_B_reference_B.wav"
+          }
+        },
+        "1": {
+          "3": {
+            "text_A_reference_A": "audio/speed/i000/seed_3/beta_1/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/speed/i000/seed_3/beta_1/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/speed/i000/seed_3/beta_1/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/speed/i000/seed_3/beta_1/text_B_reference_B.wav"
+          },
+          "4": {
+            "text_A_reference_A": "audio/speed/i000/seed_4/beta_1/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/speed/i000/seed_4/beta_1/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/speed/i000/seed_4/beta_1/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/speed/i000/seed_4/beta_1/text_B_reference_B.wav"
+          }
+        },
+        "2": {
+          "3": {
+            "text_A_reference_A": "audio/speed/i000/seed_3/beta_2/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/speed/i000/seed_3/beta_2/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/speed/i000/seed_3/beta_2/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/speed/i000/seed_3/beta_2/text_B_reference_B.wav"
+          },
+          "4": {
+            "text_A_reference_A": "audio/speed/i000/seed_4/beta_2/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/speed/i000/seed_4/beta_2/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/speed/i000/seed_4/beta_2/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/speed/i000/seed_4/beta_2/text_B_reference_B.wav"
+          }
+        }
+      }
+    },
+    {
+      "id": "pitch",
+      "change": "Reference A: −5 semitones (low); Reference B: +5 semitones (high).",
+      "sample": {
+        "id": "i000",
+        "source_class": "horn",
+        "text": {
+          "A": "A low-pitched vehicle horn honking.",
+          "B": "A high-pitched vehicle horn honking."
+        },
+        "references": {
+          "A": "../physical_controls/audio/pitch/i000/reference_A.wav",
+          "B": "../physical_controls/audio/pitch/i000/reference_B.wav"
+        }
+      },
+      "betas": {
+        "0.5": {
+          "3": {
+            "text_A_reference_A": "audio/pitch/i000/seed_3/beta_0p5/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/pitch/i000/seed_3/beta_0p5/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/pitch/i000/seed_3/beta_0p5/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/pitch/i000/seed_3/beta_0p5/text_B_reference_B.wav"
+          },
+          "4": {
+            "text_A_reference_A": "audio/pitch/i000/seed_4/beta_0p5/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/pitch/i000/seed_4/beta_0p5/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/pitch/i000/seed_4/beta_0p5/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/pitch/i000/seed_4/beta_0p5/text_B_reference_B.wav"
+          }
+        },
+        "1": {
+          "3": {
+            "text_A_reference_A": "audio/pitch/i000/seed_3/beta_1/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/pitch/i000/seed_3/beta_1/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/pitch/i000/seed_3/beta_1/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/pitch/i000/seed_3/beta_1/text_B_reference_B.wav"
+          },
+          "4": {
+            "text_A_reference_A": "audio/pitch/i000/seed_4/beta_1/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/pitch/i000/seed_4/beta_1/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/pitch/i000/seed_4/beta_1/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/pitch/i000/seed_4/beta_1/text_B_reference_B.wav"
+          }
+        },
+        "2": {
+          "3": {
+            "text_A_reference_A": "audio/pitch/i000/seed_3/beta_2/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/pitch/i000/seed_3/beta_2/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/pitch/i000/seed_3/beta_2/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/pitch/i000/seed_3/beta_2/text_B_reference_B.wav"
+          },
+          "4": {
+            "text_A_reference_A": "audio/pitch/i000/seed_4/beta_2/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/pitch/i000/seed_4/beta_2/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/pitch/i000/seed_4/beta_2/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/pitch/i000/seed_4/beta_2/text_B_reference_B.wav"
+          }
+        }
+      }
+    },
+    {
+      "id": "volume",
+      "change": "Reference A: −12 dB signal gain (quiet); Reference B: 0 dB (loud).",
+      "sample": {
+        "id": "i096",
+        "source_class": "bell",
+        "text": {
+          "A": "A church bell ringing quietly.",
+          "B": "A church bell ringing loudly."
+        },
+        "references": {
+          "A": "../physical_controls/audio/volume/i096/reference_A.wav",
+          "B": "../physical_controls/audio/volume/i096/reference_B.wav"
+        }
+      },
+      "betas": {
+        "0.5": {
+          "3": {
+            "text_A_reference_A": "audio/volume/i096/seed_3/beta_0p5/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/volume/i096/seed_3/beta_0p5/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/volume/i096/seed_3/beta_0p5/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/volume/i096/seed_3/beta_0p5/text_B_reference_B.wav"
+          },
+          "4": {
+            "text_A_reference_A": "audio/volume/i096/seed_4/beta_0p5/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/volume/i096/seed_4/beta_0p5/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/volume/i096/seed_4/beta_0p5/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/volume/i096/seed_4/beta_0p5/text_B_reference_B.wav"
+          }
+        },
+        "1": {
+          "3": {
+            "text_A_reference_A": "audio/volume/i096/seed_3/beta_1/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/volume/i096/seed_3/beta_1/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/volume/i096/seed_3/beta_1/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/volume/i096/seed_3/beta_1/text_B_reference_B.wav"
+          },
+          "4": {
+            "text_A_reference_A": "audio/volume/i096/seed_4/beta_1/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/volume/i096/seed_4/beta_1/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/volume/i096/seed_4/beta_1/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/volume/i096/seed_4/beta_1/text_B_reference_B.wav"
+          }
+        },
+        "2": {
+          "3": {
+            "text_A_reference_A": "audio/volume/i096/seed_3/beta_2/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/volume/i096/seed_3/beta_2/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/volume/i096/seed_3/beta_2/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/volume/i096/seed_3/beta_2/text_B_reference_B.wav"
+          },
+          "4": {
+            "text_A_reference_A": "audio/volume/i096/seed_4/beta_2/text_A_reference_A.wav",
+            "text_A_reference_B": "audio/volume/i096/seed_4/beta_2/text_A_reference_B.wav",
+            "text_B_reference_A": "audio/volume/i096/seed_4/beta_2/text_B_reference_A.wav",
+            "text_B_reference_B": "audio/volume/i096/seed_4/beta_2/text_B_reference_B.wav"
+          }
+        }
+      }
+    }
+  ],
+  "table": {
+    "speed": {
+      "unit": "Hz",
+      "0.5": [
+        0.08,
+        0.25
+      ],
+      "1": [
+        0.24,
+        0.18
+      ],
+      "2": [
+        0.5,
+        0.17
+      ]
+    },
+    "pitch": {
+      "unit": "semitones",
+      "0.5": [
+        2.58,
+        1.05
+      ],
+      "1": [
+        4.62,
+        0.78
+      ],
+      "2": [
+        5.61,
+        0.36
+      ]
+    },
+    "volume": {
+      "unit": "LUFS",
+      "0.5": [
+        0.04,
+        1.55
+      ],
+      "1": [
+        -0.5,
+        1.34
+      ],
+      "2": [
+        -0.02,
+        1.04
+      ]
+    }
+  }
+}

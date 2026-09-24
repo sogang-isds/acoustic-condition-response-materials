@@ -1,8 +1,13 @@
 {
+  "version": "v0.19",
+  "seeds": [
+    3,
+    4
+  ],
   "axes": [
     {
       "id": "speed",
-      "change": "Reference A: 0.70\u00d7 time stretch (slow); Reference B: 1.40\u00d7 time stretch (fast).",
+      "change": "Reference A: 0.70× time stretch (slow); Reference B: 1.40× time stretch (fast).",
       "samples": [
         {
           "id": "i000",
@@ -18,50 +23,65 @@
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/speed/i000/seed_3/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/speed/i000/seed_3/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/speed/i000/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i000/seed_3/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/speed/i000/seed_3/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/speed/i000/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/speed/i000/seed_4/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/speed/i000/seed_4/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/speed/i000/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i000/seed_4/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/speed/i000/seed_4/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/speed/i000/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/speed/i000/seed_3/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/speed/i000/seed_3/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/speed/i000/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i000/seed_3/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/speed/i000/seed_3/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/speed/i000/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/speed/i000/seed_4/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/speed/i000/seed_4/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/speed/i000/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i000/seed_4/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/speed/i000/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/speed/i000/seed_4/controlfoley/text_B_reference_B.wav"
                 }
               }
             },
             "acfoley": {
-              "name": "AC-Foley (zero-video diagnostic)",
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/speed/i000/seed_3/acfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/speed/i000/seed_3/acfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/speed/i000/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i000/seed_3/acfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/speed/i000/seed_3/acfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/speed/i000/seed_3/acfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/speed/i000/seed_4/acfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/speed/i000/seed_4/acfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/speed/i000/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i000/seed_4/acfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/speed/i000/seed_4/acfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/speed/i000/seed_4/acfoley/text_B_reference_B.wav"
                 }
@@ -83,50 +103,65 @@
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/speed/i032/seed_3/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/speed/i032/seed_3/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/speed/i032/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i032/seed_3/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/speed/i032/seed_3/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/speed/i032/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/speed/i032/seed_4/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/speed/i032/seed_4/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/speed/i032/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i032/seed_4/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/speed/i032/seed_4/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/speed/i032/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/speed/i032/seed_3/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/speed/i032/seed_3/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/speed/i032/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i032/seed_3/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/speed/i032/seed_3/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/speed/i032/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/speed/i032/seed_4/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/speed/i032/seed_4/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/speed/i032/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i032/seed_4/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/speed/i032/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/speed/i032/seed_4/controlfoley/text_B_reference_B.wav"
                 }
               }
             },
             "acfoley": {
-              "name": "AC-Foley (zero-video diagnostic)",
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/speed/i032/seed_3/acfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/speed/i032/seed_3/acfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/speed/i032/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i032/seed_3/acfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/speed/i032/seed_3/acfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/speed/i032/seed_3/acfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/speed/i032/seed_4/acfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/speed/i032/seed_4/acfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/speed/i032/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i032/seed_4/acfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/speed/i032/seed_4/acfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/speed/i032/seed_4/acfoley/text_B_reference_B.wav"
                 }
@@ -135,130 +170,160 @@
           }
         },
         {
-          "id": "i064",
+          "id": "i065",
           "source_class": "keyboard",
           "text": {
             "A": "Typing slowly with widely spaced keystrokes on a computer keyboard.",
             "B": "Typing rapidly on a computer keyboard."
           },
           "references": {
-            "A": "audio/speed/i064/reference_A.wav",
-            "B": "audio/speed/i064/reference_B.wav"
+            "A": "audio/speed/i065/reference_A.wav",
+            "B": "audio/speed/i065/reference_B.wav"
           },
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
-                  "text_A_reference_A": "audio/speed/i064/seed_3/refcon_t2a/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/speed/i064/seed_3/refcon_t2a/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/speed/i064/seed_3/refcon_t2a/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/speed/i064/seed_3/refcon_t2a/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/speed/i065/seed_3/refcon_t2a/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/speed/i065/seed_3/refcon_t2a/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i065/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i065/seed_3/refcon_t2a/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/speed/i065/seed_3/refcon_t2a/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i065/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
-                  "text_A_reference_A": "audio/speed/i064/seed_4/refcon_t2a/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/speed/i064/seed_4/refcon_t2a/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/speed/i064/seed_4/refcon_t2a/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/speed/i064/seed_4/refcon_t2a/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/speed/i065/seed_4/refcon_t2a/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/speed/i065/seed_4/refcon_t2a/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i065/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i065/seed_4/refcon_t2a/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/speed/i065/seed_4/refcon_t2a/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i065/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
-                  "text_A_reference_A": "audio/speed/i064/seed_3/controlfoley/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/speed/i064/seed_3/controlfoley/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/speed/i064/seed_3/controlfoley/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/speed/i064/seed_3/controlfoley/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/speed/i065/seed_3/controlfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/speed/i065/seed_3/controlfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i065/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i065/seed_3/controlfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/speed/i065/seed_3/controlfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i065/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
-                  "text_A_reference_A": "audio/speed/i064/seed_4/controlfoley/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/speed/i064/seed_4/controlfoley/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/speed/i064/seed_4/controlfoley/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/speed/i064/seed_4/controlfoley/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/speed/i065/seed_4/controlfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/speed/i065/seed_4/controlfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i065/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i065/seed_4/controlfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/speed/i065/seed_4/controlfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i065/seed_4/controlfoley/text_B_reference_B.wav"
                 }
               }
             },
             "acfoley": {
-              "name": "AC-Foley (zero-video diagnostic)",
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference",
               "outputs": {
                 "3": {
-                  "text_A_reference_A": "audio/speed/i064/seed_3/acfoley/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/speed/i064/seed_3/acfoley/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/speed/i064/seed_3/acfoley/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/speed/i064/seed_3/acfoley/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/speed/i065/seed_3/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/speed/i065/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i065/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i065/seed_3/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/speed/i065/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i065/seed_3/acfoley/text_B_reference_B.wav"
                 },
                 "4": {
-                  "text_A_reference_A": "audio/speed/i064/seed_4/acfoley/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/speed/i064/seed_4/acfoley/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/speed/i064/seed_4/acfoley/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/speed/i064/seed_4/acfoley/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/speed/i065/seed_4/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/speed/i065/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i065/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i065/seed_4/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/speed/i065/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i065/seed_4/acfoley/text_B_reference_B.wav"
                 }
               }
             }
           }
         },
         {
-          "id": "i096",
+          "id": "i097",
           "source_class": "snare",
           "text": {
             "A": "Slow, widely spaced hits on a snare drum.",
             "B": "Rapid hits on a snare drum in quick succession."
           },
           "references": {
-            "A": "audio/speed/i096/reference_A.wav",
-            "B": "audio/speed/i096/reference_B.wav"
+            "A": "audio/speed/i097/reference_A.wav",
+            "B": "audio/speed/i097/reference_B.wav"
           },
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
-                  "text_A_reference_A": "audio/speed/i096/seed_3/refcon_t2a/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/speed/i096/seed_3/refcon_t2a/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/speed/i096/seed_3/refcon_t2a/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/speed/i096/seed_3/refcon_t2a/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/speed/i097/seed_3/refcon_t2a/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/speed/i097/seed_3/refcon_t2a/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i097/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i097/seed_3/refcon_t2a/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/speed/i097/seed_3/refcon_t2a/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i097/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
-                  "text_A_reference_A": "audio/speed/i096/seed_4/refcon_t2a/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/speed/i096/seed_4/refcon_t2a/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/speed/i096/seed_4/refcon_t2a/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/speed/i096/seed_4/refcon_t2a/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/speed/i097/seed_4/refcon_t2a/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/speed/i097/seed_4/refcon_t2a/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i097/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i097/seed_4/refcon_t2a/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/speed/i097/seed_4/refcon_t2a/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i097/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
-                  "text_A_reference_A": "audio/speed/i096/seed_3/controlfoley/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/speed/i096/seed_3/controlfoley/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/speed/i096/seed_3/controlfoley/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/speed/i096/seed_3/controlfoley/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/speed/i097/seed_3/controlfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/speed/i097/seed_3/controlfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i097/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i097/seed_3/controlfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/speed/i097/seed_3/controlfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i097/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
-                  "text_A_reference_A": "audio/speed/i096/seed_4/controlfoley/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/speed/i096/seed_4/controlfoley/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/speed/i096/seed_4/controlfoley/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/speed/i096/seed_4/controlfoley/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/speed/i097/seed_4/controlfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/speed/i097/seed_4/controlfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i097/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i097/seed_4/controlfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/speed/i097/seed_4/controlfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i097/seed_4/controlfoley/text_B_reference_B.wav"
                 }
               }
             },
             "acfoley": {
-              "name": "AC-Foley (zero-video diagnostic)",
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference",
               "outputs": {
                 "3": {
-                  "text_A_reference_A": "audio/speed/i096/seed_3/acfoley/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/speed/i096/seed_3/acfoley/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/speed/i096/seed_3/acfoley/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/speed/i096/seed_3/acfoley/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/speed/i097/seed_3/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/speed/i097/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i097/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i097/seed_3/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/speed/i097/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i097/seed_3/acfoley/text_B_reference_B.wav"
                 },
                 "4": {
-                  "text_A_reference_A": "audio/speed/i096/seed_4/acfoley/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/speed/i096/seed_4/acfoley/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/speed/i096/seed_4/acfoley/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/speed/i096/seed_4/acfoley/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/speed/i097/seed_4/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/speed/i097/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/speed/i097/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/speed/i097/seed_4/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/speed/i097/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/speed/i097/seed_4/acfoley/text_B_reference_B.wav"
                 }
               }
             }
@@ -268,7 +333,7 @@
     },
     {
       "id": "pitch",
-      "change": "Reference A: \u22125 semitones (low); Reference B: +5 semitones (high).",
+      "change": "Reference A: −5 semitones (low); Reference B: +5 semitones (high).",
       "samples": [
         {
           "id": "i064",
@@ -284,50 +349,65 @@
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/pitch/i064/seed_3/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i064/seed_3/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i064/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i064/seed_3/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i064/seed_3/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i064/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/pitch/i064/seed_4/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i064/seed_4/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i064/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i064/seed_4/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i064/seed_4/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i064/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/pitch/i064/seed_3/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i064/seed_3/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i064/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i064/seed_3/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i064/seed_3/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i064/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/pitch/i064/seed_4/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i064/seed_4/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i064/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i064/seed_4/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i064/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i064/seed_4/controlfoley/text_B_reference_B.wav"
                 }
               }
             },
             "acfoley": {
-              "name": "AC-Foley (zero-video diagnostic)",
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/pitch/i064/seed_3/acfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i064/seed_3/acfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i064/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i064/seed_3/acfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i064/seed_3/acfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i064/seed_3/acfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/pitch/i064/seed_4/acfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i064/seed_4/acfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i064/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i064/seed_4/acfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i064/seed_4/acfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i064/seed_4/acfoley/text_B_reference_B.wav"
                 }
@@ -349,50 +429,65 @@
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/pitch/i032/seed_3/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i032/seed_3/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i032/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i032/seed_3/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i032/seed_3/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i032/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/pitch/i032/seed_4/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i032/seed_4/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i032/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i032/seed_4/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i032/seed_4/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i032/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/pitch/i032/seed_3/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i032/seed_3/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i032/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i032/seed_3/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i032/seed_3/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i032/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/pitch/i032/seed_4/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i032/seed_4/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i032/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i032/seed_4/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i032/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i032/seed_4/controlfoley/text_B_reference_B.wav"
                 }
               }
             },
             "acfoley": {
-              "name": "AC-Foley (zero-video diagnostic)",
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/pitch/i032/seed_3/acfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i032/seed_3/acfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i032/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i032/seed_3/acfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i032/seed_3/acfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i032/seed_3/acfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/pitch/i032/seed_4/acfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i032/seed_4/acfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i032/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i032/seed_4/acfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i032/seed_4/acfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i032/seed_4/acfoley/text_B_reference_B.wav"
                 }
@@ -414,50 +509,65 @@
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/pitch/i000/seed_3/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i000/seed_3/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i000/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i000/seed_3/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i000/seed_3/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i000/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/pitch/i000/seed_4/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i000/seed_4/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i000/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i000/seed_4/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i000/seed_4/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i000/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/pitch/i000/seed_3/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i000/seed_3/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i000/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i000/seed_3/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i000/seed_3/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i000/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/pitch/i000/seed_4/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i000/seed_4/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i000/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i000/seed_4/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i000/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i000/seed_4/controlfoley/text_B_reference_B.wav"
                 }
               }
             },
             "acfoley": {
-              "name": "AC-Foley (zero-video diagnostic)",
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/pitch/i000/seed_3/acfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i000/seed_3/acfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i000/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i000/seed_3/acfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i000/seed_3/acfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i000/seed_3/acfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/pitch/i000/seed_4/acfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i000/seed_4/acfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i000/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i000/seed_4/acfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i000/seed_4/acfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i000/seed_4/acfoley/text_B_reference_B.wav"
                 }
@@ -479,50 +589,65 @@
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/pitch/i096/seed_3/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i096/seed_3/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i096/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i096/seed_3/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i096/seed_3/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i096/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/pitch/i096/seed_4/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i096/seed_4/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i096/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i096/seed_4/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i096/seed_4/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i096/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/pitch/i096/seed_3/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i096/seed_3/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i096/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i096/seed_3/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i096/seed_3/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i096/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/pitch/i096/seed_4/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i096/seed_4/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i096/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i096/seed_4/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i096/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i096/seed_4/controlfoley/text_B_reference_B.wav"
                 }
               }
             },
             "acfoley": {
-              "name": "AC-Foley (zero-video diagnostic)",
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/pitch/i096/seed_3/acfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i096/seed_3/acfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i096/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i096/seed_3/acfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i096/seed_3/acfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i096/seed_3/acfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/pitch/i096/seed_4/acfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/pitch/i096/seed_4/acfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/pitch/i096/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/pitch/i096/seed_4/acfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/pitch/i096/seed_4/acfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/pitch/i096/seed_4/acfoley/text_B_reference_B.wav"
                 }
@@ -534,7 +659,7 @@
     },
     {
       "id": "volume",
-      "change": "Reference A: \u221212 dB signal gain (quiet); Reference B: 0 dB (loud).",
+      "change": "Reference A: −12 dB signal gain (quiet); Reference B: 0 dB (loud).",
       "samples": [
         {
           "id": "i096",
@@ -550,35 +675,67 @@
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/volume/i096/seed_3/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i096/seed_3/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i096/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i096/seed_3/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i096/seed_3/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i096/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/volume/i096/seed_4/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i096/seed_4/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i096/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i096/seed_4/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i096/seed_4/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i096/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/volume/i096/seed_3/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i096/seed_3/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i096/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i096/seed_3/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i096/seed_3/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i096/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/volume/i096/seed_4/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i096/seed_4/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i096/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i096/seed_4/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i096/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i096/seed_4/controlfoley/text_B_reference_B.wav"
+                }
+              }
+            },
+            "acfoley": {
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference · peak normalization off",
+              "outputs": {
+                "3": {
+                  "no_reference_text_A": "audio/volume/i096/seed_3/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i096/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i096/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i096/seed_3/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i096/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i096/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "no_reference_text_A": "audio/volume/i096/seed_4/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i096/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i096/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i096/seed_4/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i096/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i096/seed_4/acfoley/text_B_reference_B.wav"
                 }
               }
             }
@@ -598,35 +755,67 @@
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/volume/i080/seed_3/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i080/seed_3/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i080/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i080/seed_3/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i080/seed_3/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i080/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/volume/i080/seed_4/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i080/seed_4/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i080/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i080/seed_4/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i080/seed_4/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i080/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/volume/i080/seed_3/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i080/seed_3/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i080/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i080/seed_3/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i080/seed_3/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i080/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/volume/i080/seed_4/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i080/seed_4/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i080/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i080/seed_4/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i080/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i080/seed_4/controlfoley/text_B_reference_B.wav"
+                }
+              }
+            },
+            "acfoley": {
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference · peak normalization off",
+              "outputs": {
+                "3": {
+                  "no_reference_text_A": "audio/volume/i080/seed_3/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i080/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i080/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i080/seed_3/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i080/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i080/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "no_reference_text_A": "audio/volume/i080/seed_4/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i080/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i080/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i080/seed_4/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i080/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i080/seed_4/acfoley/text_B_reference_B.wav"
                 }
               }
             }
@@ -646,35 +835,67 @@
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/volume/i000/seed_3/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i000/seed_3/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i000/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i000/seed_3/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i000/seed_3/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i000/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/volume/i000/seed_4/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i000/seed_4/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i000/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i000/seed_4/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i000/seed_4/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i000/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/volume/i000/seed_3/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i000/seed_3/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i000/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i000/seed_3/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i000/seed_3/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i000/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/volume/i000/seed_4/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i000/seed_4/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i000/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i000/seed_4/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i000/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i000/seed_4/controlfoley/text_B_reference_B.wav"
+                }
+              }
+            },
+            "acfoley": {
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference · peak normalization off",
+              "outputs": {
+                "3": {
+                  "no_reference_text_A": "audio/volume/i000/seed_3/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i000/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i000/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i000/seed_3/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i000/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i000/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "no_reference_text_A": "audio/volume/i000/seed_4/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i000/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i000/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i000/seed_4/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i000/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i000/seed_4/acfoley/text_B_reference_B.wav"
                 }
               }
             }
@@ -694,35 +915,67 @@
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/volume/i016/seed_3/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i016/seed_3/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i016/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i016/seed_3/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i016/seed_3/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i016/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/volume/i016/seed_4/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i016/seed_4/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i016/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i016/seed_4/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i016/seed_4/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i016/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/volume/i016/seed_3/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i016/seed_3/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i016/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i016/seed_3/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i016/seed_3/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i016/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/volume/i016/seed_4/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i016/seed_4/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i016/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i016/seed_4/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i016/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i016/seed_4/controlfoley/text_B_reference_B.wav"
+                }
+              }
+            },
+            "acfoley": {
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference · peak normalization off",
+              "outputs": {
+                "3": {
+                  "no_reference_text_A": "audio/volume/i016/seed_3/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i016/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i016/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i016/seed_3/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i016/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i016/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "no_reference_text_A": "audio/volume/i016/seed_4/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i016/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i016/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i016/seed_4/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i016/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i016/seed_4/acfoley/text_B_reference_B.wav"
                 }
               }
             }
@@ -742,35 +995,67 @@
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/volume/i064/seed_3/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i064/seed_3/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i064/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i064/seed_3/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i064/seed_3/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i064/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/volume/i064/seed_4/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i064/seed_4/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i064/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i064/seed_4/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i064/seed_4/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i064/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/volume/i064/seed_3/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i064/seed_3/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i064/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i064/seed_3/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i064/seed_3/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i064/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/volume/i064/seed_4/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i064/seed_4/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i064/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i064/seed_4/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i064/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i064/seed_4/controlfoley/text_B_reference_B.wav"
+                }
+              }
+            },
+            "acfoley": {
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference · peak normalization off",
+              "outputs": {
+                "3": {
+                  "no_reference_text_A": "audio/volume/i064/seed_3/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i064/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i064/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i064/seed_3/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i064/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i064/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "no_reference_text_A": "audio/volume/i064/seed_4/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i064/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i064/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i064/seed_4/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i064/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i064/seed_4/acfoley/text_B_reference_B.wav"
                 }
               }
             }
@@ -790,35 +1075,67 @@
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/volume/i032/seed_3/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i032/seed_3/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i032/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i032/seed_3/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i032/seed_3/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i032/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/volume/i032/seed_4/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i032/seed_4/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i032/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i032/seed_4/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i032/seed_4/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i032/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/volume/i032/seed_3/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i032/seed_3/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i032/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i032/seed_3/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i032/seed_3/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i032/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/volume/i032/seed_4/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i032/seed_4/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i032/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i032/seed_4/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i032/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i032/seed_4/controlfoley/text_B_reference_B.wav"
+                }
+              }
+            },
+            "acfoley": {
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference · peak normalization off",
+              "outputs": {
+                "3": {
+                  "no_reference_text_A": "audio/volume/i032/seed_3/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i032/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i032/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i032/seed_3/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i032/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i032/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "no_reference_text_A": "audio/volume/i032/seed_4/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i032/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i032/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i032/seed_4/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i032/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i032/seed_4/acfoley/text_B_reference_B.wav"
                 }
               }
             }
@@ -838,83 +1155,147 @@
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/volume/i112/seed_3/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i112/seed_3/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i112/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i112/seed_3/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i112/seed_3/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i112/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/volume/i112/seed_4/refcon_t2a/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i112/seed_4/refcon_t2a/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i112/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i112/seed_4/refcon_t2a/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i112/seed_4/refcon_t2a/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i112/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
+                  "no_reference_text_A": "audio/volume/i112/seed_3/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i112/seed_3/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i112/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i112/seed_3/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i112/seed_3/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i112/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
+                  "no_reference_text_A": "audio/volume/i112/seed_4/controlfoley/no_reference_text_A.wav",
                   "text_A_reference_A": "audio/volume/i112/seed_4/controlfoley/text_A_reference_A.wav",
                   "text_A_reference_B": "audio/volume/i112/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i112/seed_4/controlfoley/no_reference_text_B.wav",
                   "text_B_reference_A": "audio/volume/i112/seed_4/controlfoley/text_B_reference_A.wav",
                   "text_B_reference_B": "audio/volume/i112/seed_4/controlfoley/text_B_reference_B.wav"
+                }
+              }
+            },
+            "acfoley": {
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference · peak normalization off",
+              "outputs": {
+                "3": {
+                  "no_reference_text_A": "audio/volume/i112/seed_3/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i112/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i112/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i112/seed_3/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i112/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i112/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "no_reference_text_A": "audio/volume/i112/seed_4/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i112/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i112/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i112/seed_4/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i112/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i112/seed_4/acfoley/text_B_reference_B.wav"
                 }
               }
             }
           }
         },
         {
-          "id": "i048",
+          "id": "i050",
           "source_class": "snare",
           "text": {
             "A": "A snare drum being played quietly.",
             "B": "A snare drum being played loudly."
           },
           "references": {
-            "A": "audio/volume/i048/reference_A.wav",
-            "B": "audio/volume/i048/reference_B.wav"
+            "A": "audio/volume/i050/reference_A.wav",
+            "B": "audio/volume/i050/reference_B.wav"
           },
           "systems": {
             "refcon_t2a": {
               "name": "RefCon-T2A",
+              "note": "5 s reference",
               "outputs": {
                 "3": {
-                  "text_A_reference_A": "audio/volume/i048/seed_3/refcon_t2a/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/volume/i048/seed_3/refcon_t2a/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/volume/i048/seed_3/refcon_t2a/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/volume/i048/seed_3/refcon_t2a/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/volume/i050/seed_3/refcon_t2a/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i050/seed_3/refcon_t2a/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i050/seed_3/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i050/seed_3/refcon_t2a/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i050/seed_3/refcon_t2a/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i050/seed_3/refcon_t2a/text_B_reference_B.wav"
                 },
                 "4": {
-                  "text_A_reference_A": "audio/volume/i048/seed_4/refcon_t2a/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/volume/i048/seed_4/refcon_t2a/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/volume/i048/seed_4/refcon_t2a/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/volume/i048/seed_4/refcon_t2a/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/volume/i050/seed_4/refcon_t2a/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i050/seed_4/refcon_t2a/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i050/seed_4/refcon_t2a/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i050/seed_4/refcon_t2a/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i050/seed_4/refcon_t2a/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i050/seed_4/refcon_t2a/text_B_reference_B.wav"
                 }
               }
             },
             "controlfoley": {
-              "name": "ControlFoley (zero-video diagnostic)",
+              "name": "ControlFoley",
+              "note": "zero-video diagnostic · 5 s semantic / 2 s timbre",
               "outputs": {
                 "3": {
-                  "text_A_reference_A": "audio/volume/i048/seed_3/controlfoley/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/volume/i048/seed_3/controlfoley/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/volume/i048/seed_3/controlfoley/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/volume/i048/seed_3/controlfoley/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/volume/i050/seed_3/controlfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i050/seed_3/controlfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i050/seed_3/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i050/seed_3/controlfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i050/seed_3/controlfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i050/seed_3/controlfoley/text_B_reference_B.wav"
                 },
                 "4": {
-                  "text_A_reference_A": "audio/volume/i048/seed_4/controlfoley/text_A_reference_A.wav",
-                  "text_A_reference_B": "audio/volume/i048/seed_4/controlfoley/text_A_reference_B.wav",
-                  "text_B_reference_A": "audio/volume/i048/seed_4/controlfoley/text_B_reference_A.wav",
-                  "text_B_reference_B": "audio/volume/i048/seed_4/controlfoley/text_B_reference_B.wav"
+                  "no_reference_text_A": "audio/volume/i050/seed_4/controlfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i050/seed_4/controlfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i050/seed_4/controlfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i050/seed_4/controlfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i050/seed_4/controlfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i050/seed_4/controlfoley/text_B_reference_B.wav"
+                }
+              }
+            },
+            "acfoley": {
+              "name": "AC-Foley",
+              "note": "zero-video diagnostic · 2.02 s reference · peak normalization off",
+              "outputs": {
+                "3": {
+                  "no_reference_text_A": "audio/volume/i050/seed_3/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i050/seed_3/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i050/seed_3/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i050/seed_3/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i050/seed_3/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i050/seed_3/acfoley/text_B_reference_B.wav"
+                },
+                "4": {
+                  "no_reference_text_A": "audio/volume/i050/seed_4/acfoley/no_reference_text_A.wav",
+                  "text_A_reference_A": "audio/volume/i050/seed_4/acfoley/text_A_reference_A.wav",
+                  "text_A_reference_B": "audio/volume/i050/seed_4/acfoley/text_A_reference_B.wav",
+                  "no_reference_text_B": "audio/volume/i050/seed_4/acfoley/no_reference_text_B.wav",
+                  "text_B_reference_A": "audio/volume/i050/seed_4/acfoley/text_B_reference_A.wav",
+                  "text_B_reference_B": "audio/volume/i050/seed_4/acfoley/text_B_reference_B.wav"
                 }
               }
             }
@@ -922,9 +1303,5 @@
         }
       ]
     }
-  ],
-  "seeds": [
-    3,
-    4
   ]
 }

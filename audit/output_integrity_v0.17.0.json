@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "expected": "44.1 kHz, 8.0 s, finite, non-silent",
+  "total_wav_files": 11872,
+  "groups": {
+    "experiments/refcon_beta_full_v017_20260923/beta_0p5/runs": {
+      "wav_count": 4608,
+      "readable_count": 4608,
+      "peak_min": 0.005157470703125,
+      "peak_max": 1.0
+    },
+    "experiments/refcon_beta_full_v017_20260923/beta_0p5/realization/runs": {
+      "wav_count": 176,
+      "readable_count": 176,
+      "peak_min": 0.10595703125,
+      "peak_max": 1.0
+    },
+    "experiments/refcon_beta_full_v017_20260923/beta_2p0/runs": {
+      "wav_count": 4608,
+      "readable_count": 4608,
+      "peak_min": 0.00689697265625,
+      "peak_max": 1.0
+    },
+    "experiments/refcon_beta_full_v017_20260923/beta_2p0/realization/runs": {
+      "wav_count": 176,
+      "readable_count": 176,
+      "peak_min": 0.0223388671875,
+      "peak_max": 1.0
+    },
+    "experiments/t2a_attribute_loudness_causal16x8_20260910/acfoley_no_peak_norm_diagnostic/runs": {
+      "wav_count": 2304,
+      "readable_count": 2304,
+      "peak_min": 0.00054931640625,
+      "peak_max": 1.0
+    }
+  },
+  "failure_count": 0,
+  "failures": []
+}
